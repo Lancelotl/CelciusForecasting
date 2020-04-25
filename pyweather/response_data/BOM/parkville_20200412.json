@@ -1,0 +1,1541 @@
+{
+  "metadata": {
+    "issue_time": "2020-04-12T08:04:59Z",
+    "response_timestamp": "2020-04-12T08:41:18Z"
+  },
+  "data": [
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 14,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T09:00:00Z",
+      "time": "2020-04-12T08:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T09:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 10
+      },
+      "temp": 14,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "W"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T12:00:00Z",
+      "time": "2020-04-12T09:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T10:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 10
+      },
+      "temp": 14,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "W"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T12:00:00Z",
+      "time": "2020-04-12T10:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T11:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 10
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T12:00:00Z",
+      "time": "2020-04-12T11:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T12:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 7,
+        "speed_kilometre": 13,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T15:00:00Z",
+      "time": "2020-04-12T12:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T13:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 7,
+        "speed_kilometre": 13,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T15:00:00Z",
+      "time": "2020-04-12T13:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T14:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T15:00:00Z",
+      "time": "2020-04-12T14:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T15:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "W"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T18:00:00Z",
+      "time": "2020-04-12T15:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T16:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "W"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T18:00:00Z",
+      "time": "2020-04-12T16:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T17:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 11,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T18:00:00Z",
+      "time": "2020-04-12T17:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T18:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 11,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T21:00:00Z",
+      "time": "2020-04-12T18:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T19:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 10,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T21:00:00Z",
+      "time": "2020-04-12T19:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T20:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 10,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-12T21:00:00Z",
+      "time": "2020-04-12T20:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-12T21:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 10,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T00:00:00Z",
+      "time": "2020-04-12T21:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-12T22:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T00:00:00Z",
+      "time": "2020-04-12T22:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-12T23:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "WNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T00:00:00Z",
+      "time": "2020-04-12T23:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T00:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 15,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "W"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T03:00:00Z",
+      "time": "2020-04-13T00:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T01:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T03:00:00Z",
+      "time": "2020-04-13T01:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T02:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T03:00:00Z",
+      "time": "2020-04-13T02:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T03:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "WSW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T06:00:00Z",
+      "time": "2020-04-13T03:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T04:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "SW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T06:00:00Z",
+      "time": "2020-04-13T04:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T05:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "SSW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T06:00:00Z",
+      "time": "2020-04-13T05:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T06:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "SW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T09:00:00Z",
+      "time": "2020-04-13T06:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T07:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "SW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T09:00:00Z",
+      "time": "2020-04-13T07:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T08:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "SSW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T09:00:00Z",
+      "time": "2020-04-13T08:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T09:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 15,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "SSE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T12:00:00Z",
+      "time": "2020-04-13T09:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T10:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 14,
+      "wind": {
+        "speed_knot": 3,
+        "speed_kilometre": 6,
+        "direction": "ESE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T12:00:00Z",
+      "time": "2020-04-13T10:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T11:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 14,
+      "wind": {
+        "speed_knot": 4,
+        "speed_kilometre": 7,
+        "direction": "E"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T12:00:00Z",
+      "time": "2020-04-13T11:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T12:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "ENE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T15:00:00Z",
+      "time": "2020-04-13T12:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T13:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "NNE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T15:00:00Z",
+      "time": "2020-04-13T13:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T14:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 5,
+        "speed_kilometre": 9,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T15:00:00Z",
+      "time": "2020-04-13T14:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T15:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T18:00:00Z",
+      "time": "2020-04-13T15:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T16:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 6,
+        "speed_kilometre": 11,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T18:00:00Z",
+      "time": "2020-04-13T16:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T17:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 7,
+        "speed_kilometre": 13,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T18:00:00Z",
+      "time": "2020-04-13T17:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T18:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 7,
+        "speed_kilometre": 13,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T21:00:00Z",
+      "time": "2020-04-13T18:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T19:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "NNE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T21:00:00Z",
+      "time": "2020-04-13T19:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T20:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 12,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-13T21:00:00Z",
+      "time": "2020-04-13T20:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-13T21:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 13,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "NNE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T00:00:00Z",
+      "time": "2020-04-13T21:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T22:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 15,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T00:00:00Z",
+      "time": "2020-04-13T22:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-13T23:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 0
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T00:00:00Z",
+      "time": "2020-04-13T23:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T00:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 19,
+      "wind": {
+        "speed_knot": 10,
+        "speed_kilometre": 19,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T03:00:00Z",
+      "time": "2020-04-14T00:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T01:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 21,
+      "wind": {
+        "speed_knot": 10,
+        "speed_kilometre": 19,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T03:00:00Z",
+      "time": "2020-04-14T01:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T02:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 22,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T03:00:00Z",
+      "time": "2020-04-14T02:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T03:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 22,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T06:00:00Z",
+      "time": "2020-04-14T03:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T04:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 23,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T06:00:00Z",
+      "time": "2020-04-14T04:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T05:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 23,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T06:00:00Z",
+      "time": "2020-04-14T05:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T06:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 23,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T09:00:00Z",
+      "time": "2020-04-14T06:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T07:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 22,
+      "wind": {
+        "speed_knot": 10,
+        "speed_kilometre": 19,
+        "direction": "NNW"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T09:00:00Z",
+      "time": "2020-04-14T07:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T08:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 20,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T09:00:00Z",
+      "time": "2020-04-14T08:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T09:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 19,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-14T12:00:00Z",
+      "time": "2020-04-14T09:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T10:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-14T12:00:00Z",
+      "time": "2020-04-14T10:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T11:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "cloudy",
+      "next_three_hourly_forecast_period": "2020-04-14T12:00:00Z",
+      "time": "2020-04-14T11:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T12:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 18,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T15:00:00Z",
+      "time": "2020-04-14T12:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T13:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T15:00:00Z",
+      "time": "2020-04-14T13:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T14:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T15:00:00Z",
+      "time": "2020-04-14T14:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T15:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T18:00:00Z",
+      "time": "2020-04-14T15:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T16:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T18:00:00Z",
+      "time": "2020-04-14T16:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T17:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T18:00:00Z",
+      "time": "2020-04-14T17:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T18:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T21:00:00Z",
+      "time": "2020-04-14T18:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T19:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T21:00:00Z",
+      "time": "2020-04-14T19:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T20:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-14T21:00:00Z",
+      "time": "2020-04-14T20:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-14T21:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 16,
+      "wind": {
+        "speed_knot": 8,
+        "speed_kilometre": 15,
+        "direction": "NNE"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T00:00:00Z",
+      "time": "2020-04-14T21:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T22:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 17,
+      "wind": {
+        "speed_knot": 9,
+        "speed_kilometre": 17,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T00:00:00Z",
+      "time": "2020-04-14T22:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-14T23:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 19,
+      "wind": {
+        "speed_knot": 10,
+        "speed_kilometre": 19,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T00:00:00Z",
+      "time": "2020-04-14T23:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T00:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 21,
+      "wind": {
+        "speed_knot": 12,
+        "speed_kilometre": 22,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T03:00:00Z",
+      "time": "2020-04-15T00:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T01:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 22,
+      "wind": {
+        "speed_knot": 13,
+        "speed_kilometre": 24,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T03:00:00Z",
+      "time": "2020-04-15T01:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T02:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 23,
+      "wind": {
+        "speed_knot": 14,
+        "speed_kilometre": 26,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T03:00:00Z",
+      "time": "2020-04-15T02:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T03:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 24,
+      "wind": {
+        "speed_knot": 14,
+        "speed_kilometre": 26,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T06:00:00Z",
+      "time": "2020-04-15T03:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T04:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 24,
+      "wind": {
+        "speed_knot": 14,
+        "speed_kilometre": 26,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T06:00:00Z",
+      "time": "2020-04-15T04:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T05:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 24,
+      "wind": {
+        "speed_knot": 12,
+        "speed_kilometre": 22,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T06:00:00Z",
+      "time": "2020-04-15T05:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T06:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 24,
+      "wind": {
+        "speed_knot": 11,
+        "speed_kilometre": 20,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T09:00:00Z",
+      "time": "2020-04-15T06:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T07:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 23,
+      "wind": {
+        "speed_knot": 11,
+        "speed_kilometre": 20,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T09:00:00Z",
+      "time": "2020-04-15T07:00:00Z",
+      "is_night": false,
+      "next_forecast_period": "2020-04-15T08:00:00Z"
+    },
+    {
+      "rain": {
+        "amount": {
+          "min": 0,
+          "max": null,
+          "units": "mm"
+        },
+        "chance": 5
+      },
+      "temp": 22,
+      "wind": {
+        "speed_knot": 10,
+        "speed_kilometre": 19,
+        "direction": "N"
+      },
+      "icon_descriptor": "mostly_sunny",
+      "next_three_hourly_forecast_period": "2020-04-15T09:00:00Z",
+      "time": "2020-04-15T08:00:00Z",
+      "is_night": true,
+      "next_forecast_period": "2020-04-15T09:00:00Z"
+    }
+  ]
+}

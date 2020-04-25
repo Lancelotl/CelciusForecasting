@@ -1,0 +1,1110 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.03,
+                    -27.45,
+                    38
+                ]
+            },
+            "properties": {
+                "location": {
+                    "name": "Herston, Queensland, AU",
+                    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright"
+                },
+                "requestPointDistance": 3479.7131,
+                "modelRunDate": "2020-04-11T09:00Z",
+                "timeSeries": [
+                    {
+                        "time": "2020-04-11T09:00Z",
+                        "screenTemperature": 23.782963,
+                        "screenDewPointTemperature": 10.641167,
+                        "feelsLikeTemperature": 22.710518,
+                        "windSpeed10m": 2.932759,
+                        "windDirectionFrom10m": 252,
+                        "windGustSpeed10m": 5.5289,
+                        "visibility": 41056,
+                        "screenRelativeHumidity": 43.665665,
+                        "mslp": 100972,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T10:00Z",
+                        "screenTemperature": 22.770063,
+                        "screenDewPointTemperature": 10.578502,
+                        "feelsLikeTemperature": 21.676353,
+                        "windSpeed10m": 2.9037943,
+                        "windDirectionFrom10m": 258,
+                        "windGustSpeed10m": 5.466526,
+                        "visibility": 41311,
+                        "screenRelativeHumidity": 46.477676,
+                        "mslp": 101017,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T11:00Z",
+                        "screenTemperature": 21.776482,
+                        "screenDewPointTemperature": 10.50037,
+                        "feelsLikeTemperature": 20.650293,
+                        "windSpeed10m": 2.8820038,
+                        "windDirectionFrom10m": 263,
+                        "windGustSpeed10m": 5.4267783,
+                        "visibility": 40884,
+                        "screenRelativeHumidity": 49.210575,
+                        "mslp": 101061,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T12:00Z",
+                        "screenTemperature": 20.803885,
+                        "screenDewPointTemperature": 10.420147,
+                        "feelsLikeTemperature": 19.627508,
+                        "windSpeed10m": 2.8674195,
+                        "windDirectionFrom10m": 268,
+                        "windGustSpeed10m": 5.4002123,
+                        "visibility": 41422,
+                        "screenRelativeHumidity": 51.87775,
+                        "mslp": 101105,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T13:00Z",
+                        "screenTemperature": 20.289541,
+                        "screenDewPointTemperature": 10.14991,
+                        "feelsLikeTemperature": 19.018188,
+                        "windSpeed10m": 2.977153,
+                        "windDirectionFrom10m": 267,
+                        "windGustSpeed10m": 5.6083655,
+                        "visibility": 40354,
+                        "screenRelativeHumidity": 52.509724,
+                        "mslp": 101086,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T14:00Z",
+                        "screenTemperature": 19.763803,
+                        "screenDewPointTemperature": 9.888895,
+                        "feelsLikeTemperature": 18.409555,
+                        "windSpeed10m": 3.082417,
+                        "windDirectionFrom10m": 267,
+                        "windGustSpeed10m": 5.810731,
+                        "visibility": 38074,
+                        "screenRelativeHumidity": 53.172485,
+                        "mslp": 101069,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T15:00Z",
+                        "screenTemperature": 19.27885,
+                        "screenDewPointTemperature": 9.625108,
+                        "feelsLikeTemperature": 17.799034,
+                        "windSpeed10m": 3.2049942,
+                        "windDirectionFrom10m": 266,
+                        "windGustSpeed10m": 6.0246596,
+                        "visibility": 38978,
+                        "screenRelativeHumidity": 53.832382,
+                        "mslp": 101049,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T16:00Z",
+                        "screenTemperature": 18.6391,
+                        "screenDewPointTemperature": 9.589289,
+                        "feelsLikeTemperature": 17.340828,
+                        "windSpeed10m": 3.0657792,
+                        "windDirectionFrom10m": 261,
+                        "windGustSpeed10m": 5.700063,
+                        "visibility": 38110,
+                        "screenRelativeHumidity": 55.805317,
+                        "mslp": 101042,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T17:00Z",
+                        "screenTemperature": 18.042828,
+                        "screenDewPointTemperature": 9.552104,
+                        "feelsLikeTemperature": 16.884586,
+                        "windSpeed10m": 2.9363298,
+                        "windDirectionFrom10m": 256,
+                        "windGustSpeed10m": 5.3783817,
+                        "visibility": 37145,
+                        "screenRelativeHumidity": 57.776836,
+                        "mslp": 101034,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T18:00Z",
+                        "screenTemperature": 17.494246,
+                        "screenDewPointTemperature": 9.5132265,
+                        "feelsLikeTemperature": 16.422903,
+                        "windSpeed10m": 2.8095744,
+                        "windDirectionFrom10m": 251,
+                        "windGustSpeed10m": 5.0603437,
+                        "visibility": 37978,
+                        "screenRelativeHumidity": 59.75069,
+                        "mslp": 101030,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T19:00Z",
+                        "screenTemperature": 17.18288,
+                        "screenDewPointTemperature": 9.620649,
+                        "feelsLikeTemperature": 16.28933,
+                        "windSpeed10m": 2.8352458,
+                        "windDirectionFrom10m": 249,
+                        "windGustSpeed10m": 5.0573087,
+                        "visibility": 37048,
+                        "screenRelativeHumidity": 60.698494,
+                        "mslp": 101117,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T20:00Z",
+                        "screenTemperature": 17.044943,
+                        "screenDewPointTemperature": 9.723208,
+                        "feelsLikeTemperature": 16.151337,
+                        "windSpeed10m": 2.8841944,
+                        "windDirectionFrom10m": 247,
+                        "windGustSpeed10m": 5.0548835,
+                        "visibility": 36734,
+                        "screenRelativeHumidity": 61.61707,
+                        "mslp": 101201,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T21:00Z",
+                        "screenTemperature": 17.087372,
+                        "screenDewPointTemperature": 9.820307,
+                        "feelsLikeTemperature": 16.01495,
+                        "windSpeed10m": 2.9040225,
+                        "windDirectionFrom10m": 245,
+                        "windGustSpeed10m": 5.053199,
+                        "visibility": 37480,
+                        "screenRelativeHumidity": 62.52384,
+                        "mslp": 101288,
+                        "uvIndex": 1,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T22:00Z",
+                        "screenTemperature": 18.851324,
+                        "screenDewPointTemperature": 9.827268,
+                        "feelsLikeTemperature": 17.840174,
+                        "windSpeed10m": 2.9721437,
+                        "windDirectionFrom10m": 228,
+                        "windGustSpeed10m": 5.6524677,
+                        "visibility": 36734,
+                        "screenRelativeHumidity": 56.41237,
+                        "mslp": 101346,
+                        "uvIndex": 3,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-11T23:00Z",
+                        "screenTemperature": 20.796263,
+                        "screenDewPointTemperature": 9.834992,
+                        "feelsLikeTemperature": 19.671928,
+                        "windSpeed10m": 3.0147846,
+                        "windDirectionFrom10m": 211,
+                        "windGustSpeed10m": 6.2628975,
+                        "visibility": 41198,
+                        "screenRelativeHumidity": 50.26346,
+                        "mslp": 101399,
+                        "uvIndex": 5,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T00:00Z",
+                        "screenTemperature": 22.814087,
+                        "screenDewPointTemperature": 9.844058,
+                        "feelsLikeTemperature": 21.50184,
+                        "windSpeed10m": 3.0149894,
+                        "windDirectionFrom10m": 193,
+                        "windGustSpeed10m": 6.876517,
+                        "visibility": 41973,
+                        "screenRelativeHumidity": 44.1027,
+                        "mslp": 101454,
+                        "uvIndex": 7,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T01:00Z",
+                        "screenTemperature": 23.119284,
+                        "screenDewPointTemperature": 10.045327,
+                        "feelsLikeTemperature": 22.05553,
+                        "windSpeed10m": 3.4216838,
+                        "windDirectionFrom10m": 167,
+                        "windGustSpeed10m": 7.450161,
+                        "visibility": 37425,
+                        "screenRelativeHumidity": 42.97579,
+                        "mslp": 101419,
+                        "uvIndex": 7,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T02:00Z",
+                        "screenTemperature": 23.76435,
+                        "screenDewPointTemperature": 10.242742,
+                        "feelsLikeTemperature": 22.604513,
+                        "windSpeed10m": 3.678669,
+                        "windDirectionFrom10m": 144,
+                        "windGustSpeed10m": 8.031631,
+                        "visibility": 37195,
+                        "screenRelativeHumidity": 41.85768,
+                        "mslp": 101385,
+                        "uvIndex": 7,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T03:00Z",
+                        "screenTemperature": 24.68799,
+                        "screenDewPointTemperature": 10.445355,
+                        "feelsLikeTemperature": 23.154465,
+                        "windSpeed10m": 3.6308906,
+                        "windDirectionFrom10m": 113,
+                        "windGustSpeed10m": 8.61414,
+                        "visibility": 41738,
+                        "screenRelativeHumidity": 40.741768,
+                        "mslp": 101349,
+                        "uvIndex": 7,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T04:00Z",
+                        "screenTemperature": 23.803886,
+                        "screenDewPointTemperature": 10.576595,
+                        "feelsLikeTemperature": 22.200956,
+                        "windSpeed10m": 4.145742,
+                        "windDirectionFrom10m": 118,
+                        "windGustSpeed10m": 9.019177,
+                        "visibility": 37253,
+                        "screenRelativeHumidity": 43.108322,
+                        "mslp": 101376,
+                        "uvIndex": 5,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T05:00Z",
+                        "screenTemperature": 23.192867,
+                        "screenDewPointTemperature": 10.702185,
+                        "feelsLikeTemperature": 21.255398,
+                        "windSpeed10m": 4.351362,
+                        "windDirectionFrom10m": 115,
+                        "windGustSpeed10m": 9.408893,
+                        "visibility": 35384,
+                        "screenRelativeHumidity": 45.451134,
+                        "mslp": 101401,
+                        "uvIndex": 3,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T06:00Z",
+                        "screenTemperature": 22.534906,
+                        "screenDewPointTemperature": 10.829083,
+                        "feelsLikeTemperature": 20.317038,
+                        "windSpeed10m": 4.649876,
+                        "windDirectionFrom10m": 108,
+                        "windGustSpeed10m": 9.781273,
+                        "visibility": 38962,
+                        "screenRelativeHumidity": 47.777756,
+                        "mslp": 101428,
+                        "uvIndex": 2,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T07:00Z",
+                        "screenTemperature": 21.349081,
+                        "screenDewPointTemperature": 11.310692,
+                        "feelsLikeTemperature": 19.52158,
+                        "windSpeed10m": 4.12678,
+                        "windDirectionFrom10m": 118,
+                        "windGustSpeed10m": 8.549243,
+                        "visibility": 35424,
+                        "screenRelativeHumidity": 53.49804,
+                        "mslp": 101508,
+                        "uvIndex": 1,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T08:00Z",
+                        "screenTemperature": 20.10681,
+                        "screenDewPointTemperature": 11.796515,
+                        "feelsLikeTemperature": 18.718193,
+                        "windSpeed10m": 3.7862,
+                        "windDirectionFrom10m": 119,
+                        "windGustSpeed10m": 7.3280263,
+                        "visibility": 33421,
+                        "screenRelativeHumidity": 59.25027,
+                        "mslp": 101589,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T09:00Z",
+                        "screenTemperature": 19.020088,
+                        "screenDewPointTemperature": 12.285968,
+                        "feelsLikeTemperature": 17.911385,
+                        "windSpeed10m": 3.3393323,
+                        "windDirectionFrom10m": 120,
+                        "windGustSpeed10m": 6.110156,
+                        "visibility": 36906,
+                        "screenRelativeHumidity": 65.02745,
+                        "mslp": 101669,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T10:00Z",
+                        "screenTemperature": 18.1476,
+                        "screenDewPointTemperature": 12.467172,
+                        "feelsLikeTemperature": 17.450047,
+                        "windSpeed10m": 3.2376,
+                        "windDirectionFrom10m": 131,
+                        "windGustSpeed10m": 5.4484572,
+                        "visibility": 33444,
+                        "screenRelativeHumidity": 68.917496,
+                        "mslp": 101732,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T11:00Z",
+                        "screenTemperature": 17.42703,
+                        "screenDewPointTemperature": 12.645493,
+                        "feelsLikeTemperature": 16.985037,
+                        "windSpeed10m": 3.03616,
+                        "windDirectionFrom10m": 141,
+                        "windGustSpeed10m": 4.7916994,
+                        "visibility": 30995,
+                        "screenRelativeHumidity": 72.82344,
+                        "mslp": 101794,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T12:00Z",
+                        "screenTemperature": 16.963093,
+                        "screenDewPointTemperature": 12.824957,
+                        "feelsLikeTemperature": 16.512194,
+                        "windSpeed10m": 2.514966,
+                        "windDirectionFrom10m": 158,
+                        "windGustSpeed10m": 4.138494,
+                        "visibility": 34527,
+                        "screenRelativeHumidity": 76.736565,
+                        "mslp": 101857,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T13:00Z",
+                        "screenTemperature": 16.399635,
+                        "screenDewPointTemperature": 12.624155,
+                        "feelsLikeTemperature": 15.948116,
+                        "windSpeed10m": 2.4590437,
+                        "windDirectionFrom10m": 168,
+                        "windGustSpeed10m": 4.0437994,
+                        "visibility": 34513,
+                        "screenRelativeHumidity": 78.57937,
+                        "mslp": 101851,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T14:00Z",
+                        "screenTemperature": 15.837347,
+                        "screenDewPointTemperature": 12.425844,
+                        "feelsLikeTemperature": 15.38444,
+                        "windSpeed10m": 2.3964338,
+                        "windDirectionFrom10m": 177,
+                        "windGustSpeed10m": 3.9408557,
+                        "visibility": 32443,
+                        "screenRelativeHumidity": 80.42501,
+                        "mslp": 101845,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T15:00Z",
+                        "screenTemperature": 15.276622,
+                        "screenDewPointTemperature": 12.231324,
+                        "feelsLikeTemperature": 14.823307,
+                        "windSpeed10m": 2.3350472,
+                        "windDirectionFrom10m": 186,
+                        "windGustSpeed10m": 3.83523,
+                        "visibility": 32399,
+                        "screenRelativeHumidity": 82.28173,
+                        "mslp": 101840,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T16:00Z",
+                        "screenTemperature": 14.958439,
+                        "screenDewPointTemperature": 11.96592,
+                        "feelsLikeTemperature": 14.476015,
+                        "windSpeed10m": 2.3207982,
+                        "windDirectionFrom10m": 193,
+                        "windGustSpeed10m": 3.8214288,
+                        "visibility": 32378,
+                        "screenRelativeHumidity": 82.56491,
+                        "mslp": 101839,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T17:00Z",
+                        "screenTemperature": 14.6370535,
+                        "screenDewPointTemperature": 11.703123,
+                        "feelsLikeTemperature": 14.126189,
+                        "windSpeed10m": 2.3059807,
+                        "windDirectionFrom10m": 199,
+                        "windGustSpeed10m": 3.8120565,
+                        "visibility": 31768,
+                        "screenRelativeHumidity": 82.83847,
+                        "mslp": 101837,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T18:00Z",
+                        "screenTemperature": 14.31736,
+                        "screenDewPointTemperature": 11.43529,
+                        "feelsLikeTemperature": 13.775373,
+                        "windSpeed10m": 2.2895992,
+                        "windDirectionFrom10m": 206,
+                        "windGustSpeed10m": 3.8027048,
+                        "visibility": 31742,
+                        "screenRelativeHumidity": 83.11244,
+                        "mslp": 101835,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T19:00Z",
+                        "screenTemperature": 14.483538,
+                        "screenDewPointTemperature": 11.396669,
+                        "feelsLikeTemperature": 13.956338,
+                        "windSpeed10m": 2.2727485,
+                        "windDirectionFrom10m": 207,
+                        "windGustSpeed10m": 3.9074254,
+                        "visibility": 31719,
+                        "screenRelativeHumidity": 82.03098,
+                        "mslp": 101898,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T20:00Z",
+                        "screenTemperature": 14.656344,
+                        "screenDewPointTemperature": 11.358169,
+                        "feelsLikeTemperature": 14.137129,
+                        "windSpeed10m": 2.257237,
+                        "windDirectionFrom10m": 207,
+                        "windGustSpeed10m": 4.006568,
+                        "visibility": 32695,
+                        "screenRelativeHumidity": 80.94991,
+                        "mslp": 101962,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 0,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T21:00Z",
+                        "screenTemperature": 14.822859,
+                        "screenDewPointTemperature": 11.319633,
+                        "feelsLikeTemperature": 14.319836,
+                        "windSpeed10m": 2.2448757,
+                        "windDirectionFrom10m": 208,
+                        "windGustSpeed10m": 4.1045866,
+                        "visibility": 32673,
+                        "screenRelativeHumidity": 79.86325,
+                        "mslp": 102025,
+                        "uvIndex": 1,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T22:00Z",
+                        "screenTemperature": 17.222021,
+                        "screenDewPointTemperature": 12.130686,
+                        "feelsLikeTemperature": 16.882425,
+                        "windSpeed10m": 2.1838431,
+                        "windDirectionFrom10m": 187,
+                        "windGustSpeed10m": 4.5327263,
+                        "visibility": 32633,
+                        "screenRelativeHumidity": 73.1756,
+                        "mslp": 102046,
+                        "uvIndex": 3,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-12T23:00Z",
+                        "screenTemperature": 19.621582,
+                        "screenDewPointTemperature": 12.942595,
+                        "feelsLikeTemperature": 19.449528,
+                        "windSpeed10m": 2.1241832,
+                        "windDirectionFrom10m": 167,
+                        "windGustSpeed10m": 4.958394,
+                        "visibility": 37106,
+                        "screenRelativeHumidity": 66.46112,
+                        "mslp": 102066,
+                        "uvIndex": 5,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-13T00:00Z",
+                        "screenTemperature": 22.028217,
+                        "screenDewPointTemperature": 13.751975,
+                        "feelsLikeTemperature": 22.021809,
+                        "windSpeed10m": 2.0636792,
+                        "windDirectionFrom10m": 146,
+                        "windGustSpeed10m": 5.3840985,
+                        "visibility": 37097,
+                        "screenRelativeHumidity": 59.726078,
+                        "mslp": 102089,
+                        "uvIndex": 6,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-13T01:00Z",
+                        "screenTemperature": 23.00557,
+                        "screenDewPointTemperature": 13.468201,
+                        "feelsLikeTemperature": 22.801596,
+                        "windSpeed10m": 2.3329003,
+                        "windDirectionFrom10m": 122,
+                        "windGustSpeed10m": 6.092086,
+                        "visibility": 37066,
+                        "screenRelativeHumidity": 55.55511,
+                        "mslp": 102021,
+                        "uvIndex": 6,
+                        "significantWeatherCode": 1,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 0
+                    },
+                    {
+                        "time": "2020-04-13T02:00Z",
+                        "screenTemperature": 23.983467,
+                        "screenDewPointTemperature": 13.1826935,
+                        "feelsLikeTemperature": 23.589321,
+                        "windSpeed10m": 2.6068907,
+                        "windDirectionFrom10m": 101,
+                        "windGustSpeed10m": 6.797516,
+                        "visibility": 35747,
+                        "screenRelativeHumidity": 51.379898,
+                        "mslp": 101955,
+                        "uvIndex": 6,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 4
+                    },
+                    {
+                        "time": "2020-04-13T03:00Z",
+                        "screenTemperature": 24.96519,
+                        "screenDewPointTemperature": 12.902869,
+                        "feelsLikeTemperature": 24.372389,
+                        "windSpeed10m": 2.8754191,
+                        "windDirectionFrom10m": 80,
+                        "windGustSpeed10m": 7.511517,
+                        "visibility": 35676,
+                        "screenRelativeHumidity": 47.215736,
+                        "mslp": 101886,
+                        "uvIndex": 6,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 4
+                    },
+                    {
+                        "time": "2020-04-13T04:00Z",
+                        "screenTemperature": 24.613003,
+                        "screenDewPointTemperature": 13.084236,
+                        "feelsLikeTemperature": 23.915226,
+                        "windSpeed10m": 3.074547,
+                        "windDirectionFrom10m": 82,
+                        "windGustSpeed10m": 7.5151324,
+                        "visibility": 35632,
+                        "screenRelativeHumidity": 48.83778,
+                        "mslp": 101886,
+                        "uvIndex": 4,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 4
+                    },
+                    {
+                        "time": "2020-04-13T05:00Z",
+                        "screenTemperature": 24.261333,
+                        "screenDewPointTemperature": 13.267422,
+                        "feelsLikeTemperature": 23.455496,
+                        "windSpeed10m": 3.2670486,
+                        "windDirectionFrom10m": 84,
+                        "windGustSpeed10m": 7.518241,
+                        "visibility": 36361,
+                        "screenRelativeHumidity": 50.45954,
+                        "mslp": 101886,
+                        "uvIndex": 3,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 5
+                    },
+                    {
+                        "time": "2020-04-13T06:00Z",
+                        "screenTemperature": 23.910507,
+                        "screenDewPointTemperature": 13.452118,
+                        "feelsLikeTemperature": 22.999416,
+                        "windSpeed10m": 3.464865,
+                        "windDirectionFrom10m": 86,
+                        "windGustSpeed10m": 7.525866,
+                        "visibility": 36302,
+                        "screenRelativeHumidity": 52.086025,
+                        "mslp": 101886,
+                        "uvIndex": 1,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 5
+                    },
+                    {
+                        "time": "2020-04-13T07:00Z",
+                        "screenTemperature": 22.827694,
+                        "screenDewPointTemperature": 14.264167,
+                        "feelsLikeTemperature": 22.264544,
+                        "windSpeed10m": 3.1435347,
+                        "windDirectionFrom10m": 91,
+                        "windGustSpeed10m": 6.4698815,
+                        "visibility": 36270,
+                        "screenRelativeHumidity": 59.54433,
+                        "mslp": 101948,
+                        "uvIndex": 1,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 5
+                    },
+                    {
+                        "time": "2020-04-13T08:00Z",
+                        "screenTemperature": 21.747702,
+                        "screenDewPointTemperature": 15.079234,
+                        "feelsLikeTemperature": 21.53117,
+                        "windSpeed10m": 2.820893,
+                        "windDirectionFrom10m": 95,
+                        "windGustSpeed10m": 5.4141855,
+                        "visibility": 31326,
+                        "screenRelativeHumidity": 67.02028,
+                        "mslp": 102014,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 4
+                    },
+                    {
+                        "time": "2020-04-13T09:00Z",
+                        "screenTemperature": 20.664156,
+                        "screenDewPointTemperature": 15.895821,
+                        "feelsLikeTemperature": 20.786057,
+                        "windSpeed10m": 2.5006225,
+                        "windDirectionFrom10m": 100,
+                        "windGustSpeed10m": 4.362379,
+                        "visibility": 31382,
+                        "screenRelativeHumidity": 74.52467,
+                        "mslp": 102076,
+                        "uvIndex": 0,
+                        "significantWeatherCode": 7,
+                        "precipitationRate": 0,
+                        "totalPrecipAmount": 0,
+                        "totalSnowAmount": 0,
+                        "probOfPrecipitation": 4
+                    }
+                ]
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "totalSnowAmount": {
+                "type": "Parameter",
+                "description": "Total Snow Amount Over Previous Hour",
+                "unit": {
+                    "label": "millimetres",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "mm"
+                    }
+                }
+            },
+            "screenTemperature": {
+                "type": "Parameter",
+                "description": "Screen Air Temperature",
+                "unit": {
+                    "label": "degrees Celsius",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Cel"
+                    }
+                }
+            },
+            "visibility": {
+                "type": "Parameter",
+                "description": "Visibility",
+                "unit": {
+                    "label": "metres",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "m"
+                    }
+                }
+            },
+            "windDirectionFrom10m": {
+                "type": "Parameter",
+                "description": "10m Wind From Direction",
+                "unit": {
+                    "label": "degrees",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "deg"
+                    }
+                }
+            },
+            "precipitationRate": {
+                "type": "Parameter",
+                "description": "Precipitation Rate",
+                "unit": {
+                    "label": "millimetres per hour",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "mm/h"
+                    }
+                }
+            },
+            "maxScreenAirTemp": {
+                "type": "Parameter",
+                "description": "Maximum Screen Air Temperature Over Previous Hour",
+                "unit": {
+                    "label": "degrees Celsius",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Cel"
+                    }
+                }
+            },
+            "feelsLikeTemperature": {
+                "type": "Parameter",
+                "description": "Feels Like Temperature",
+                "unit": {
+                    "label": "degrees Celsius",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Cel"
+                    }
+                }
+            },
+            "screenDewPointTemperature": {
+                "type": "Parameter",
+                "description": "Screen Dew Point Temperature",
+                "unit": {
+                    "label": "degrees Celsius",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Cel"
+                    }
+                }
+            },
+            "screenRelativeHumidity": {
+                "type": "Parameter",
+                "description": "Screen Relative Humidity",
+                "unit": {
+                    "label": "percentage",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "%"
+                    }
+                }
+            },
+            "probOfPrecipitation": {
+                "type": "Parameter",
+                "description": "Probability of Precipitation",
+                "unit": {
+                    "label": "percentage",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "%"
+                    }
+                }
+            },
+            "windSpeed10m": {
+                "type": "Parameter",
+                "description": "10m Wind Speed",
+                "unit": {
+                    "label": "metres per second",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "m/s"
+                    }
+                }
+            },
+            "max10mWindGust": {
+                "type": "Parameter",
+                "description": "Maximum 10m Wind Gust Speed Over Previous Hour",
+                "unit": {
+                    "label": "metres per second",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "m/s"
+                    }
+                }
+            },
+            "significantWeatherCode": {
+                "type": "Parameter",
+                "description": "Significant Weather Code",
+                "unit": {
+                    "label": "dimensionless",
+                    "symbol": {
+                        "value": "https://metoffice.apiconnect.ibmcloud.com/metoffice/production/",
+                        "type": "1"
+                    }
+                }
+            },
+            "totalPrecipAmount": {
+                "type": "Parameter",
+                "description": "Total Precipitation Amount Over Previous Hour",
+                "unit": {
+                    "label": "millimetres",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "mm"
+                    }
+                }
+            },
+            "minScreenAirTemp": {
+                "type": "Parameter",
+                "description": "Minimum Screen Air Temperature Over Previous Hour",
+                "unit": {
+                    "label": "degrees Celsius",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Cel"
+                    }
+                }
+            },
+            "mslp": {
+                "type": "Parameter",
+                "description": "Mean Sea Level Pressure",
+                "unit": {
+                    "label": "pascals",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "Pa"
+                    }
+                }
+            },
+            "windGustSpeed10m": {
+                "type": "Parameter",
+                "description": "10m Wind Gust Speed",
+                "unit": {
+                    "label": "metres per second",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "m/s"
+                    }
+                }
+            },
+            "uvIndex": {
+                "type": "Parameter",
+                "description": "UV Index",
+                "unit": {
+                    "label": "dimensionless",
+                    "symbol": {
+                        "value": "http://www.opengis.net/def/uom/UCUM/",
+                        "type": "1"
+                    }
+                }
+            }
+        }
+    ]
+}

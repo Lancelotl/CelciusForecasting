@@ -1,0 +1,2377 @@
+<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.met.no/weatherapi/locationforecast/1.9/schema" created="2020-04-11T16:34:27Z">
+    <meta>
+        <model name="met_public_forecast" termin="2020-04-11T13:00:00Z" runended="2020-04-11T13:23:15Z" nextrun="2020-04-11T19:28:22Z" from="2020-04-11T17:00:00Z" to="2020-04-20T18:00:00Z"></model>
+    </meta>
+    <product class="pointData">
+        <time datatype="forecast" from="2020-04-11T17:00:00Z" to="2020-04-11T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.4"></temperature>
+                <windDirection id="dd" deg="268.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="6.2" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="56.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1011.1"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="4.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T16:00:00Z" to="2020-04-11T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T11:00:00Z" to="2020-04-11T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="15.7"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T18:00:00Z" to="2020-04-11T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.1"></temperature>
+                <windDirection id="dd" deg="263.7" name="W"></windDirection>
+                <windSpeed id="ff" mps="6.9" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="58.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1011.9"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="4.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T17:00:00Z" to="2020-04-11T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T12:00:00Z" to="2020-04-11T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.1"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="15.0"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T19:00:00Z" to="2020-04-11T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.7"></temperature>
+                <windDirection id="dd" deg="257.0" name="W"></windDirection>
+                <windSpeed id="ff" mps="6.9" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="60.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1012.8"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="4.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T18:00:00Z" to="2020-04-11T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T13:00:00Z" to="2020-04-11T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="14.2"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T20:00:00Z" to="2020-04-11T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.2"></temperature>
+                <windDirection id="dd" deg="259.4" name="W"></windDirection>
+                <windSpeed id="ff" mps="5.9" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="62.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1013.4"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="4.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T19:00:00Z" to="2020-04-11T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T14:00:00Z" to="2020-04-11T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="13.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T21:00:00Z" to="2020-04-11T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.2"></temperature>
+                <windDirection id="dd" deg="265.9" name="W"></windDirection>
+                <windSpeed id="ff" mps="5.6" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="64.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1014.4"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="4.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T20:00:00Z" to="2020-04-11T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T15:00:00Z" to="2020-04-11T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.9"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T22:00:00Z" to="2020-04-11T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.6"></temperature>
+                <windDirection id="dd" deg="260.2" name="W"></windDirection>
+                <windSpeed id="ff" mps="5.6" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="61.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.6"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="5.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T21:00:00Z" to="2020-04-11T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T16:00:00Z" to="2020-04-11T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.6"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T23:00:00Z" to="2020-04-11T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="14.6"></temperature>
+                <windDirection id="dd" deg="257.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="56.4"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.4"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="6.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T22:00:00Z" to="2020-04-11T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T17:00:00Z" to="2020-04-11T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="14.6"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T00:00:00Z" to="2020-04-12T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.5"></temperature>
+                <windDirection id="dd" deg="227.4" name="SW"></windDirection>
+                <windSpeed id="ff" mps="3.7" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="48.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.5"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="5.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T23:00:00Z" to="2020-04-12T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T18:00:00Z" to="2020-04-12T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="16.5"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T01:00:00Z" to="2020-04-12T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.6"></temperature>
+                <windDirection id="dd" deg="194.0" name="S"></windDirection>
+                <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="43.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.4"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="5.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T00:00:00Z" to="2020-04-12T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T19:00:00Z" to="2020-04-12T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.6"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T02:00:00Z" to="2020-04-12T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.2"></temperature>
+                <windDirection id="dd" deg="180.1" name="S"></windDirection>
+                <windSpeed id="ff" mps="3.8" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="44.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.0"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="5.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T01:00:00Z" to="2020-04-12T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T20:00:00Z" to="2020-04-12T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.2"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T03:00:00Z" to="2020-04-12T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.4"></temperature>
+                <windDirection id="dd" deg="169.5" name="S"></windDirection>
+                <windSpeed id="ff" mps="3.6" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="46.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.4"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="6.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T02:00:00Z" to="2020-04-12T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T21:00:00Z" to="2020-04-12T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T04:00:00Z" to="2020-04-12T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.1"></temperature>
+                <windDirection id="dd" deg="151.4" name="SE"></windDirection>
+                <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="51.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.2"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="8.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T03:00:00Z" to="2020-04-12T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T22:00:00Z" to="2020-04-12T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T05:00:00Z" to="2020-04-12T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.0"></temperature>
+                <windDirection id="dd" deg="146.8" name="SE"></windDirection>
+                <windSpeed id="ff" mps="3.4" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="53.4"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.2"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="8.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T04:00:00Z" to="2020-04-12T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-11T23:00:00Z" to="2020-04-12T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T06:00:00Z" to="2020-04-12T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.9"></temperature>
+                <windDirection id="dd" deg="146.1" name="SE"></windDirection>
+                <windSpeed id="ff" mps="3.4" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="53.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.3"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="8.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T05:00:00Z" to="2020-04-12T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T00:00:00Z" to="2020-04-12T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T07:00:00Z" to="2020-04-12T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.1"></temperature>
+                <windDirection id="dd" deg="133.1" name="SE"></windDirection>
+                <windSpeed id="ff" mps="2.4" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="61.3"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.6"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T06:00:00Z" to="2020-04-12T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T01:00:00Z" to="2020-04-12T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.1"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T08:00:00Z" to="2020-04-12T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="15.3"></temperature>
+                <windDirection id="dd" deg="113.9" name="SE"></windDirection>
+                <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="70.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.3"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T07:00:00Z" to="2020-04-12T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T02:00:00Z" to="2020-04-12T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.4"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T09:00:00Z" to="2020-04-12T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="15.7"></temperature>
+                <windDirection id="dd" deg="84.5" name="E"></windDirection>
+                <windSpeed id="ff" mps="1.8" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="67.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1017.2"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T08:00:00Z" to="2020-04-12T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T03:00:00Z" to="2020-04-12T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.1"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T10:00:00Z" to="2020-04-12T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.1"></temperature>
+                <windDirection id="dd" deg="82.4" name="E"></windDirection>
+                <windSpeed id="ff" mps="0.9" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="61.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.0"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T09:00:00Z" to="2020-04-12T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T04:00:00Z" to="2020-04-12T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.0"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T11:00:00Z" to="2020-04-12T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.4"></temperature>
+                <windDirection id="dd" deg="249.7" name="W"></windDirection>
+                <windSpeed id="ff" mps="0.3" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="66.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.6"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T10:00:00Z" to="2020-04-12T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T05:00:00Z" to="2020-04-12T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.9"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T12:00:00Z" to="2020-04-12T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="13.4"></temperature>
+                <windDirection id="dd" deg="284.3" name="W"></windDirection>
+                <windSpeed id="ff" mps="1.7" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="82.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.3"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T11:00:00Z" to="2020-04-12T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T06:00:00Z" to="2020-04-12T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="13.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.1"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T13:00:00Z" to="2020-04-12T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.6"></temperature>
+                <windDirection id="dd" deg="284.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="88.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.5"></pressure>
+                <cloudiness id="NN" percent="1.6"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T12:00:00Z" to="2020-04-12T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T07:00:00Z" to="2020-04-12T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.1"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T14:00:00Z" to="2020-04-12T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.8"></temperature>
+                <windDirection id="dd" deg="285.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="88.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.3"></pressure>
+                <cloudiness id="NN" percent="3.1"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="3.1"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T13:00:00Z" to="2020-04-12T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T08:00:00Z" to="2020-04-12T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.8"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.1"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T15:00:00Z" to="2020-04-12T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.7"></temperature>
+                <windDirection id="dd" deg="282.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="87.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.3"></pressure>
+                <cloudiness id="NN" percent="42.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="42.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T14:00:00Z" to="2020-04-12T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T09:00:00Z" to="2020-04-12T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.1"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T16:00:00Z" to="2020-04-12T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.4"></temperature>
+                <windDirection id="dd" deg="292.9" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="88.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.0"></pressure>
+                <cloudiness id="NN" percent="79.7"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="79.7"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T15:00:00Z" to="2020-04-12T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T10:00:00Z" to="2020-04-12T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="16.4"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T17:00:00Z" to="2020-04-12T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.2"></temperature>
+                <windDirection id="dd" deg="297.3" name="NW"></windDirection>
+                <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="88.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.9"></pressure>
+                <cloudiness id="NN" percent="98.4"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="98.4"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T16:00:00Z" to="2020-04-12T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T11:00:00Z" to="2020-04-12T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="13.4"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T18:00:00Z" to="2020-04-12T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.0"></temperature>
+                <windDirection id="dd" deg="288.3" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="89.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.0"></pressure>
+                <cloudiness id="NN" percent="96.9"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="96.9"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T17:00:00Z" to="2020-04-12T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T12:00:00Z" to="2020-04-12T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.6"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T19:00:00Z" to="2020-04-12T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="10.8"></temperature>
+                <windDirection id="dd" deg="284.3" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="90.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.5"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T18:00:00Z" to="2020-04-12T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T13:00:00Z" to="2020-04-12T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.8"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="11.8"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T20:00:00Z" to="2020-04-12T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="10.6"></temperature>
+                <windDirection id="dd" deg="293.8" name="NW"></windDirection>
+                <windSpeed id="ff" mps="3.3" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="91.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.4"></pressure>
+                <cloudiness id="NN" percent="97.7"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="97.7"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T19:00:00Z" to="2020-04-12T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T14:00:00Z" to="2020-04-12T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="11.7"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T21:00:00Z" to="2020-04-12T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="11.0"></temperature>
+                <windDirection id="dd" deg="281.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="88.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.9"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.8"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T20:00:00Z" to="2020-04-12T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T15:00:00Z" to="2020-04-12T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="11.4"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T22:00:00Z" to="2020-04-12T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.7"></temperature>
+                <windDirection id="dd" deg="281.0" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.8" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="81.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.6"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T21:00:00Z" to="2020-04-12T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T16:00:00Z" to="2020-04-12T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T23:00:00Z" to="2020-04-12T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="14.9"></temperature>
+                <windDirection id="dd" deg="279.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="76.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.1"></pressure>
+                <cloudiness id="NN" percent="100.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="100.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="10.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T22:00:00Z" to="2020-04-12T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T17:00:00Z" to="2020-04-12T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="14.9"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T00:00:00Z" to="2020-04-13T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.0"></temperature>
+                <windDirection id="dd" deg="273.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="67.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.8"></pressure>
+                <cloudiness id="NN" percent="100.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="100.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T23:00:00Z" to="2020-04-13T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T18:00:00Z" to="2020-04-13T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.0"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T01:00:00Z" to="2020-04-13T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.7"></temperature>
+                <windDirection id="dd" deg="254.4" name="W"></windDirection>
+                <windSpeed id="ff" mps="1.8" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="65.3"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.4"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T00:00:00Z" to="2020-04-13T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T19:00:00Z" to="2020-04-13T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="10.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T02:00:00Z" to="2020-04-13T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.7"></temperature>
+                <windDirection id="dd" deg="227.9" name="SW"></windDirection>
+                <windSpeed id="ff" mps="0.8" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="63.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.0"></pressure>
+                <cloudiness id="NN" percent="100.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="100.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T01:00:00Z" to="2020-04-13T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T20:00:00Z" to="2020-04-13T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="11.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T03:00:00Z" to="2020-04-13T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.5"></temperature>
+                <windDirection id="dd" deg="99.2" name="E"></windDirection>
+                <windSpeed id="ff" mps="1.6" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="62.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.2"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T02:00:00Z" to="2020-04-13T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T21:00:00Z" to="2020-04-13T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.5"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T04:00:00Z" to="2020-04-13T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.7"></temperature>
+                <windDirection id="dd" deg="86.3" name="E"></windDirection>
+                <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="63.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.3"></pressure>
+                <cloudiness id="NN" percent="98.4"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="98.4"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T03:00:00Z" to="2020-04-13T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T22:00:00Z" to="2020-04-13T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T05:00:00Z" to="2020-04-13T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.4"></temperature>
+                <windDirection id="dd" deg="72.7" name="E"></windDirection>
+                <windSpeed id="ff" mps="3.6" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="63.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.2"></pressure>
+                <cloudiness id="NN" percent="97.7"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="97.7"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T04:00:00Z" to="2020-04-13T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-12T23:00:00Z" to="2020-04-13T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T06:00:00Z" to="2020-04-13T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.2"></temperature>
+                <windDirection id="dd" deg="55.1" name="NE"></windDirection>
+                <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="64.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.1"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T05:00:00Z" to="2020-04-13T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T00:00:00Z" to="2020-04-13T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T07:00:00Z" to="2020-04-13T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.5"></temperature>
+                <windDirection id="dd" deg="47.8" name="NE"></windDirection>
+                <windSpeed id="ff" mps="4.1" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="69.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1019.4"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T06:00:00Z" to="2020-04-13T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T01:00:00Z" to="2020-04-13T07:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T08:00:00Z" to="2020-04-13T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.9"></temperature>
+                <windDirection id="dd" deg="39.2" name="NE"></windDirection>
+                <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="73.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.2"></pressure>
+                <cloudiness id="NN" percent="91.4"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="91.4"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T07:00:00Z" to="2020-04-13T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T02:00:00Z" to="2020-04-13T08:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T09:00:00Z" to="2020-04-13T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.5"></temperature>
+                <windDirection id="dd" deg="30.8" name="NE"></windDirection>
+                <windSpeed id="ff" mps="3.4" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="76.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.9"></pressure>
+                <cloudiness id="NN" percent="32.8"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="32.8"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T08:00:00Z" to="2020-04-13T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T03:00:00Z" to="2020-04-13T09:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T10:00:00Z" to="2020-04-13T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.3"></temperature>
+                <windDirection id="dd" deg="22.4" name="N"></windDirection>
+                <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="83.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.6"></pressure>
+                <cloudiness id="NN" percent="98.4"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="98.4"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T09:00:00Z" to="2020-04-13T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T04:00:00Z" to="2020-04-13T10:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.4"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T11:00:00Z" to="2020-04-13T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.1"></temperature>
+                <windDirection id="dd" deg="354.3" name="N"></windDirection>
+                <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="84.4"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.2"></pressure>
+                <cloudiness id="NN" percent="93.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="93.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T10:00:00Z" to="2020-04-13T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T05:00:00Z" to="2020-04-13T11:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.1"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.2"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T12:00:00Z" to="2020-04-13T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="15.0"></temperature>
+                <windDirection id="dd" deg="300.2" name="NW"></windDirection>
+                <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="90.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.7"></pressure>
+                <cloudiness id="NN" percent="42.2"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="42.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T11:00:00Z" to="2020-04-13T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T06:00:00Z" to="2020-04-13T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.5"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T13:00:00Z" to="2020-04-13T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="14.3"></temperature>
+                <windDirection id="dd" deg="274.7" name="W"></windDirection>
+                <windSpeed id="ff" mps="1.8" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="93.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.7"></pressure>
+                <cloudiness id="NN" percent="20.3"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="20.3"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T12:00:00Z" to="2020-04-13T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T07:00:00Z" to="2020-04-13T13:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.9"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T14:00:00Z" to="2020-04-13T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="13.1"></temperature>
+                <windDirection id="dd" deg="285.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="94.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.5"></pressure>
+                <cloudiness id="NN" percent="5.5"></cloudiness>
+                <fog id="FOG" percent="1.6"></fog>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="3.9"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T13:00:00Z" to="2020-04-13T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T08:00:00Z" to="2020-04-13T14:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="13.1"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.5"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T15:00:00Z" to="2020-04-13T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.9"></temperature>
+                <windDirection id="dd" deg="301.4" name="NW"></windDirection>
+                <windSpeed id="ff" mps="1.7" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="93.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.4"></pressure>
+                <cloudiness id="NN" percent="29.7"></cloudiness>
+                <fog id="FOG" percent="28.9"></fog>
+                <lowClouds id="LOW" percent="28.9"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.8"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T14:00:00Z" to="2020-04-13T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Fog" number="15"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T09:00:00Z" to="2020-04-13T15:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="16.3"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T16:00:00Z" to="2020-04-13T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.4"></temperature>
+                <windDirection id="dd" deg="299.2" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="94.4"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.3"></pressure>
+                <cloudiness id="NN" percent="30.5"></cloudiness>
+                <fog id="FOG" percent="28.9"></fog>
+                <lowClouds id="LOW" percent="29.7"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.8"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T15:00:00Z" to="2020-04-13T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Fog" number="15"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T10:00:00Z" to="2020-04-13T16:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="16.1"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T17:00:00Z" to="2020-04-13T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.4"></temperature>
+                <windDirection id="dd" deg="303.0" name="NW"></windDirection>
+                <windSpeed id="ff" mps="1.9" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="94.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.8"></pressure>
+                <cloudiness id="NN" percent="12.5"></cloudiness>
+                <fog id="FOG" percent="0.8"></fog>
+                <lowClouds id="LOW" percent="2.3"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="4.7"></mediumClouds>
+                <highClouds id="HIGH" percent="8.6"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T16:00:00Z" to="2020-04-13T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T11:00:00Z" to="2020-04-13T17:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="15.0"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T18:00:00Z" to="2020-04-13T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.3"></temperature>
+                <windDirection id="dd" deg="295.7" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="94.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.9"></pressure>
+                <cloudiness id="NN" percent="21.9"></cloudiness>
+                <fog id="FOG" percent="1.6"></fog>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="20.3"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T17:00:00Z" to="2020-04-13T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T12:00:00Z" to="2020-04-13T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="14.3"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T19:00:00Z" to="2020-04-13T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.1"></temperature>
+                <windDirection id="dd" deg="291.5" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="93.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.6"></pressure>
+                <cloudiness id="NN" percent="18.8"></cloudiness>
+                <fog id="FOG" percent="1.6"></fog>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="14.1"></mediumClouds>
+                <highClouds id="HIGH" percent="13.3"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T18:00:00Z" to="2020-04-13T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T13:00:00Z" to="2020-04-13T19:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.1"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="13.1"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T20:00:00Z" to="2020-04-13T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.0"></temperature>
+                <windDirection id="dd" deg="282.8" name="W"></windDirection>
+                <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="93.4"></humidity>
+                <pressure id="pr" unit="hPa" value="1023.4"></pressure>
+                <cloudiness id="NN" percent="2.3"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="2.3"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T19:00:00Z" to="2020-04-13T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T14:00:00Z" to="2020-04-13T20:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.9"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T21:00:00Z" to="2020-04-13T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="12.6"></temperature>
+                <windDirection id="dd" deg="287.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="91.3"></humidity>
+                <pressure id="pr" unit="hPa" value="1024.2"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="11.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T20:00:00Z" to="2020-04-13T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T15:00:00Z" to="2020-04-13T21:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="12.6"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T22:00:00Z" to="2020-04-13T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="14.3"></temperature>
+                <windDirection id="dd" deg="292.9" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.5" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="87.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1024.9"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T21:00:00Z" to="2020-04-13T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T16:00:00Z" to="2020-04-13T22:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="14.3"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T23:00:00Z" to="2020-04-13T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.6"></temperature>
+                <windDirection id="dd" deg="291.9" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="81.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1025.1"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T22:00:00Z" to="2020-04-13T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T17:00:00Z" to="2020-04-13T23:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="16.6"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T00:00:00Z" to="2020-04-14T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.9"></temperature>
+                <windDirection id="dd" deg="285.9" name="W"></windDirection>
+                <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="73.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1024.9"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T23:00:00Z" to="2020-04-14T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T18:00:00Z" to="2020-04-14T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.9"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T01:00:00Z" to="2020-04-14T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="20.5"></temperature>
+                <windDirection id="dd" deg="286.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="0.7" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="67.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1024.5"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T00:00:00Z" to="2020-04-14T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T19:00:00Z" to="2020-04-14T01:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="20.5"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T02:00:00Z" to="2020-04-14T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.5"></temperature>
+                <windDirection id="dd" deg="84.3" name="E"></windDirection>
+                <windSpeed id="ff" mps="0.7" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="65.3"></humidity>
+                <pressure id="pr" unit="hPa" value="1023.8"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T01:00:00Z" to="2020-04-14T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T20:00:00Z" to="2020-04-14T02:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.5"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T03:00:00Z" to="2020-04-14T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.8"></temperature>
+                <windDirection id="dd" deg="81.3" name="E"></windDirection>
+                <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="66.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.9"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.5"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T02:00:00Z" to="2020-04-14T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T21:00:00Z" to="2020-04-14T03:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.8"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T04:00:00Z" to="2020-04-14T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.4"></temperature>
+                <windDirection id="dd" deg="77.1" name="E"></windDirection>
+                <windSpeed id="ff" mps="3.7" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="70.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.2"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T03:00:00Z" to="2020-04-14T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T22:00:00Z" to="2020-04-14T04:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.8"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T05:00:00Z" to="2020-04-14T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.1"></temperature>
+                <windDirection id="dd" deg="70.1" name="E"></windDirection>
+                <windSpeed id="ff" mps="4.1" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="71.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.0"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T04:00:00Z" to="2020-04-14T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-13T23:00:00Z" to="2020-04-14T05:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.8"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T06:00:00Z" to="2020-04-14T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="20.9"></temperature>
+                <windDirection id="dd" deg="60.1" name="NE"></windDirection>
+                <windSpeed id="ff" mps="3.9" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="72.3"></humidity>
+                <pressure id="pr" unit="hPa" value="1021.9"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <fog id="FOG" percent="0.0"></fog>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T05:00:00Z" to="2020-04-14T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T00:00:00Z" to="2020-04-14T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="20.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.8"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T12:00:00Z" to="2020-04-14T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="15.9"></temperature>
+                <windDirection id="dd" deg="298.0" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="93.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1023.8"></pressure>
+                <cloudiness id="NN" percent="0.0"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T06:00:00Z" to="2020-04-14T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.3"></maxTemperature>
+                <symbol id="Sun" number="1"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T18:00:00Z" to="2020-04-14T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="13.7"></temperature>
+                <windDirection id="dd" deg="296.4" name="NW"></windDirection>
+                <windSpeed id="ff" mps="3.0" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="94.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1022.2"></pressure>
+                <cloudiness id="NN" percent="68.8"></cloudiness>
+                <lowClouds id="LOW" percent="3.1"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="68.8"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.7"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T12:00:00Z" to="2020-04-14T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="13.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="15.9"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T00:00:00Z" to="2020-04-15T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.2"></temperature>
+                <windDirection id="dd" deg="275.9" name="W"></windDirection>
+                <windSpeed id="ff" mps="2.3" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="73.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1023.3"></pressure>
+                <cloudiness id="NN" percent="83.6"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="83.6"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-14T18:00:00Z" to="2020-04-15T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="12.8"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.9"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T06:00:00Z" to="2020-04-15T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="23.5"></temperature>
+                <windDirection id="dd" deg="46.0" name="NE"></windDirection>
+                <windSpeed id="ff" mps="3.7" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="72.2"></humidity>
+                <pressure id="pr" unit="hPa" value="1017.9"></pressure>
+                <cloudiness id="NN" percent="81.2"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="81.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="18.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T00:00:00Z" to="2020-04-15T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="19.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="24.2"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T12:00:00Z" to="2020-04-15T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.6"></temperature>
+                <windDirection id="dd" deg="330.7" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.9" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="70.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.2"></pressure>
+                <cloudiness id="NN" percent="96.1"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="96.1"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="13.2"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T06:00:00Z" to="2020-04-15T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="23.5"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T18:00:00Z" to="2020-04-15T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.3"></temperature>
+                <windDirection id="dd" deg="311.5" name="NW"></windDirection>
+                <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="76.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1014.3"></pressure>
+                <cloudiness id="NN" percent="76.6"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="76.6"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T12:00:00Z" to="2020-04-15T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.6"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T00:00:00Z" to="2020-04-16T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="24.2"></temperature>
+                <windDirection id="dd" deg="328.0" name="NW"></windDirection>
+                <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="57.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1014.8"></pressure>
+                <cloudiness id="NN" percent="92.2"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="92.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-15T18:00:00Z" to="2020-04-16T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.3"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="24.0"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T06:00:00Z" to="2020-04-16T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="27.0"></temperature>
+                <windDirection id="dd" deg="325.6" name="NW"></windDirection>
+                <windSpeed id="ff" mps="4.6" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="52.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1010.3"></pressure>
+                <cloudiness id="NN" percent="96.9"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.8"></mediumClouds>
+                <highClouds id="HIGH" percent="96.9"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="16.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T00:00:00Z" to="2020-04-16T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="24.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="28.4"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T12:00:00Z" to="2020-04-16T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="23.9"></temperature>
+                <windDirection id="dd" deg="329.4" name="NW"></windDirection>
+                <windSpeed id="ff" mps="4.8" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="58.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1011.8"></pressure>
+                <cloudiness id="NN" percent="100.0"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="99.2"></mediumClouds>
+                <highClouds id="HIGH" percent="100.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.4"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T06:00:00Z" to="2020-04-16T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="23.9"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="27.0"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T18:00:00Z" to="2020-04-16T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="20.2"></temperature>
+                <windDirection id="dd" deg="193.4" name="S"></windDirection>
+                <windSpeed id="ff" mps="4.4" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="83.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1011.2"></pressure>
+                <cloudiness id="NN" percent="100.0"></cloudiness>
+                <lowClouds id="LOW" percent="0.8"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="10.2"></mediumClouds>
+                <highClouds id="HIGH" percent="100.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="17.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T12:00:00Z" to="2020-04-16T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="20.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="23.9"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T00:00:00Z" to="2020-04-17T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.7"></temperature>
+                <windDirection id="dd" deg="213.6" name="SW"></windDirection>
+                <windSpeed id="ff" mps="1.1" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="72.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1013.7"></pressure>
+                <cloudiness id="NN" percent="19.5"></cloudiness>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="18.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="16.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-16T18:00:00Z" to="2020-04-17T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="19.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.7"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T06:00:00Z" to="2020-04-17T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="21.6"></temperature>
+                <windDirection id="dd" deg="105.0" name="E"></windDirection>
+                <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="71.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1011.0"></pressure>
+                <cloudiness id="NN" percent="22.7"></cloudiness>
+                <lowClouds id="LOW" percent="10.2"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.8"></mediumClouds>
+                <highClouds id="HIGH" percent="13.3"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="16.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T00:00:00Z" to="2020-04-17T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="21.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="22.8"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T12:00:00Z" to="2020-04-17T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.7"></temperature>
+                <windDirection id="dd" deg="224.3" name="SW"></windDirection>
+                <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="87.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1013.7"></pressure>
+                <cloudiness id="NN" percent="99.2"></cloudiness>
+                <lowClouds id="LOW" percent="7.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="3.1"></mediumClouds>
+                <highClouds id="HIGH" percent="99.2"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="16.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T06:00:00Z" to="2020-04-17T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="21.7"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T18:00:00Z" to="2020-04-17T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.2"></temperature>
+                <windDirection id="dd" deg="244.2" name="SW"></windDirection>
+                <windSpeed id="ff" mps="5.5" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="62.5"></humidity>
+                <pressure id="pr" unit="hPa" value="1012.5"></pressure>
+                <cloudiness id="NN" percent="90.6"></cloudiness>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="90.6"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T12:00:00Z" to="2020-04-17T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.7"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T00:00:00Z" to="2020-04-18T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.5"></temperature>
+                <windDirection id="dd" deg="240.8" name="SW"></windDirection>
+                <windSpeed id="ff" mps="3.1" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="55.8"></humidity>
+                <pressure id="pr" unit="hPa" value="1014.7"></pressure>
+                <cloudiness id="NN" percent="1.6"></cloudiness>
+                <lowClouds id="LOW" percent="1.6"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="9.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-17T18:00:00Z" to="2020-04-18T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.3"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T06:00:00Z" to="2020-04-18T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.2"></temperature>
+                <windDirection id="dd" deg="185.6" name="S"></windDirection>
+                <windSpeed id="ff" mps="7.4" beaufort="4" name="Laber bris"></windSpeed>
+                <humidity unit="percent" value="78.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1013.9"></pressure>
+                <cloudiness id="NN" percent="50.0"></cloudiness>
+                <lowClouds id="LOW" percent="30.5"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="43.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T00:00:00Z" to="2020-04-18T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.3"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="20.6"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T12:00:00Z" to="2020-04-18T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="18.7"></temperature>
+                <windDirection id="dd" deg="147.4" name="SE"></windDirection>
+                <windSpeed id="ff" mps="5.0" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="76.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1017.7"></pressure>
+                <cloudiness id="NN" percent="79.7"></cloudiness>
+                <lowClouds id="LOW" percent="32.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="78.1"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T06:00:00Z" to="2020-04-18T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.6"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="18.4"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.5"></maxTemperature>
+                <symbol id="DrizzleSun" number="40"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T18:00:00Z" to="2020-04-18T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.8"></temperature>
+                <windDirection id="dd" deg="161.1" name="S"></windDirection>
+                <windSpeed id="ff" mps="5.1" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="84.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1017.4"></pressure>
+                <cloudiness id="NN" percent="68.0"></cloudiness>
+                <lowClouds id="LOW" percent="57.8"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="42.2"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T12:00:00Z" to="2020-04-18T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="2.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="18.8"></maxTemperature>
+                <symbol id="LightRainSun" number="5"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T00:00:00Z" to="2020-04-19T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.1"></temperature>
+                <windDirection id="dd" deg="148.9" name="SE"></windDirection>
+                <windSpeed id="ff" mps="4.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="75.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.3"></pressure>
+                <cloudiness id="NN" percent="97.7"></cloudiness>
+                <lowClouds id="LOW" percent="75.8"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="96.1"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-18T18:00:00Z" to="2020-04-19T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="1.5"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.1"></maxTemperature>
+                <symbol id="LightRainSun" number="5"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T06:00:00Z" to="2020-04-19T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.6"></temperature>
+                <windDirection id="dd" deg="130.9" name="SE"></windDirection>
+                <windSpeed id="ff" mps="2.6" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="70.1"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.7"></pressure>
+                <cloudiness id="NN" percent="97.7"></cloudiness>
+                <lowClouds id="LOW" percent="57.8"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="96.9"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T00:00:00Z" to="2020-04-19T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.2"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="19.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.8"></maxTemperature>
+                <symbol id="Cloud" number="4"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T12:00:00Z" to="2020-04-19T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="17.2"></temperature>
+                <windDirection id="dd" deg="338.8" name="N"></windDirection>
+                <windSpeed id="ff" mps="1.5" beaufort="1" name="Flau vind"></windSpeed>
+                <humidity unit="percent" value="92.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1020.4"></pressure>
+                <cloudiness id="NN" percent="89.8"></cloudiness>
+                <lowClouds id="LOW" percent="85.2"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="83.6"></mediumClouds>
+                <highClouds id="HIGH" percent="1.6"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="16.0"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T06:00:00Z" to="2020-04-19T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="1.9"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="17.2"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.7"></maxTemperature>
+                <symbol id="LightRain" number="9"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T18:00:00Z" to="2020-04-19T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="14.9"></temperature>
+                <windDirection id="dd" deg="302.7" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="95.6"></humidity>
+                <pressure id="pr" unit="hPa" value="1017.6"></pressure>
+                <cloudiness id="NN" percent="66.4"></cloudiness>
+                <lowClouds id="LOW" percent="21.9"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="61.7"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="14.1"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T12:00:00Z" to="2020-04-19T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.9"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="15.0"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="17.1"></maxTemperature>
+                <symbol id="DrizzleSun" number="40"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T00:00:00Z" to="2020-04-20T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.6"></temperature>
+                <windDirection id="dd" deg="319.5" name="NW"></windDirection>
+                <windSpeed id="ff" mps="2.7" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="78.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1018.6"></pressure>
+                <cloudiness id="NN" percent="96.1"></cloudiness>
+                <lowClouds id="LOW" percent="3.1"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="0.0"></mediumClouds>
+                <highClouds id="HIGH" percent="95.3"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="15.8"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-19T18:00:00Z" to="2020-04-20T00:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="14.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.5"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T06:00:00Z" to="2020-04-20T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="22.2"></temperature>
+                <windDirection id="dd" deg="67.0" name="NE"></windDirection>
+                <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="73.9"></humidity>
+                <pressure id="pr" unit="hPa" value="1015.0"></pressure>
+                <cloudiness id="NN" percent="65.6"></cloudiness>
+                <lowClouds id="LOW" percent="5.5"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="59.4"></mediumClouds>
+                <highClouds id="HIGH" percent="18.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="17.3"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T00:00:00Z" to="2020-04-20T06:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="19.6"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="23.2"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T12:00:00Z" to="2020-04-20T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="19.8"></temperature>
+                <windDirection id="dd" deg="205.5" name="SW"></windDirection>
+                <windSpeed id="ff" mps="3.5" beaufort="3" name="Lett bris"></windSpeed>
+                <humidity unit="percent" value="88.0"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.9"></pressure>
+                <cloudiness id="NN" percent="32.0"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="32.0"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="17.6"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T06:00:00Z" to="2020-04-20T12:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="19.7"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="22.4"></maxTemperature>
+                <symbol id="PartlyCloud" number="3"></symbol>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T18:00:00Z" to="2020-04-20T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <temperature id="TTT" unit="celsius" value="16.4"></temperature>
+                <windDirection id="dd" deg="253.1" name="W"></windDirection>
+                <windSpeed id="ff" mps="3.2" beaufort="2" name="Svak vind"></windSpeed>
+                <humidity unit="percent" value="79.7"></humidity>
+                <pressure id="pr" unit="hPa" value="1016.1"></pressure>
+                <cloudiness id="NN" percent="3.1"></cloudiness>
+                <lowClouds id="LOW" percent="0.0"></lowClouds>
+                <mediumClouds id="MEDIUM" percent="3.1"></mediumClouds>
+                <highClouds id="HIGH" percent="0.0"></highClouds>
+                <dewpointTemperature id="TD" unit="celsius" value="12.9"></dewpointTemperature>
+            </location>
+        </time>
+        <time datatype="forecast" from="2020-04-20T12:00:00Z" to="2020-04-20T18:00:00Z">
+            <location altitude="24" latitude="-33.86" longitude="151.21">
+                <precipitation unit="mm" value="0.0"></precipitation>
+                <minTemperature id="TTT" unit="celsius" value="16.5"></minTemperature>
+                <maxTemperature id="TTT" unit="celsius" value="19.9"></maxTemperature>
+                <symbol id="LightCloud" number="2"></symbol>
+            </location>
+        </time>
+    </product>
+</weatherdata>
