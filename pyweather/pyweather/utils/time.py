@@ -39,6 +39,7 @@ def hours_since_utc_datetime(then):
     now = pendulum.now().in_tz("UTC")
     return now.diff(then).in_hours()
 
+
 def decaminutes_since_utc_datetime(then):
     """
     How many 10-minute away since the datetime?
@@ -51,6 +52,7 @@ def decaminutes_since_utc_datetime(then):
     """
     now = pendulum.now().in_tz("UTC")
     return now.diff(then).in_minutes() / 10
+
 
 def parse_bomgovau_raw_footer_string_to_utc_datetime(raw_string):
     """Takes an unstructured date string of the type and returns a structured string instead.
@@ -182,3 +184,71 @@ def local_string_to_utc_string(time_local, timezone, format_func):
     dt_local = pendulum.parse(time_local, tz=timezone)
     dt_utc = dt_local.in_tz("UTC")
     return format_func(dt_utc)
+
+
+def datetime_to_simple_string(date_dt):
+    """Datetime -> simple string
+
+    Input:
+        Pendulum datetime object (UTC)
+
+    Expected output:
+        '2020-04-11T09:00'
+    """
+    return date_dt.format("YYYY-MM-DDTHH:mm")
+
+
+def hours_between_datetimes(start, end):
+    """Computes the number of hours between two dates as strings:
+    Input:
+        '2020-04-26T13:00',
+        '2020-04-26T16:00'
+
+    Expected output:
+        3 hours
+    """
+    return end.diff(start).in_hours()
+
+
+def count_to(n):
+    return range(1, n + 1)
+
+
+def local_string_to_range_of_local_strings(
+    time_local_start, time_local_end=None, next_n_hours=None
+):
+    """Computes the number of hours between two dates as strings:
+    Input:
+        time_local_start = '2020-04-26T13:00'
+
+        End (optional):
+            time_local_end = '2020-04-26T16:00'
+
+        N-hours (optional):
+            next_n_hours = 6
+
+
+    Expected output:
+        [
+            '2020-04-26T13:00',
+            '2020-04-26T14:00',
+            '2020-04-26T15:00',
+            '2020-04-26T16:00',
+            '2020-04-26T17:00'
+        ]
+    """
+    if not time_local_end and not next_n_hours:
+        return []
+
+    start = pendulum.parse(time_local_start)
+    if time_local_end:
+        end = pendulum.parse(time_local_end)
+        next_n_hours = hours_between_datetimes(start=start, end=end)
+
+    datetimes = [time_local_start]
+    for i in count_to(next_n_hours):
+        datetimes.append(start.add(hours=i))
+
+    datetime_strings = [datetime_to_simple_string(elt) for elt in datetimes]
+
+    return datetime_strings
