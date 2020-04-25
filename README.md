@@ -1,4 +1,4 @@
-# CelciusForecasting
+# CelciusForecasting (pyweather)
  Retrieving multi-source temperature forecasts by coordinates.
 
 
@@ -23,7 +23,7 @@ for city in CITIES:
 ```
 
 ## API Keys
- To use Accuweather and the MET, please create a variables.env file in your current directory with your own API keys for the following services:
+ To use the Accuweather and MET APIs, please create a variables.env file in your current directory with your own API keys for the following services:
 
 ```
 ACCUWEATHER_API_KEY = ""
