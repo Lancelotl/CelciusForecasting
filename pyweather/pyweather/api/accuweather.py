@@ -79,9 +79,7 @@ def retrieve(location_object, target_local_time):
             try:
                 temperature = forecast["Temperature"]["Value"]
             except KeyError:
-                raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temperature/Value"}
-                )
+                raise BadResponse({"service": SERVICE_NAME, "key": "Temperature/Value"})
             temperature = round(Decimal(temperature), DECIMAL_PLACES)
             try:
                 unit = forecast["Temperature"]["Unit"]
@@ -158,9 +156,7 @@ def find_in_document(location_object, target_local_time, document):
             try:
                 temperature = forecast["Temperature"]["Value"]
             except KeyError:
-                raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temperature/Value"}
-                )
+                raise BadResponse({"service": SERVICE_NAME, "key": "Temperature/Value"})
             temperature = round(Decimal(temperature), DECIMAL_PLACES)
             try:
                 unit = forecast["Temperature"]["Unit"]

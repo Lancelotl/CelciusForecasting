@@ -91,9 +91,9 @@ class HourlyForecast:
         self,
         location_object,
         local_date_start,
-        local_date_end = None,
-        next_n_hours = None,
-        services = [BOM, MET, ACCUWEATHER, YRNO],
+        local_date_end=None,
+        next_n_hours=None,
+        services=[BOM, MET, ACCUWEATHER, YRNO],
     ):
         self.location_object = location_object
         self.local_date_start = local_date_start
@@ -101,10 +101,10 @@ class HourlyForecast:
         self.next_n_hours = next_n_hours
         self.services = services
         self.local_dates = local_string_to_range_of_local_strings(
-            time_local_start = self.local_date_start,
-            time_local_end = self.local_date_end,
-            next_n_hours = self.next_n_hours
-            )
+            time_local_start=self.local_date_start,
+            time_local_end=self.local_date_end,
+            next_n_hours=self.next_n_hours,
+        )
         self.detailed = self._fetch_forecast()
 
     def _fetch_forecast(self):
@@ -146,9 +146,9 @@ class HourlyForecast:
             for hour in self.local_dates:
                 try:
                     response = service.find_in_document(
-                        location_object = self.location_object,
-                        target_local_time = hour,
-                        document = document
+                        location_object=self.location_object,
+                        target_local_time=hour,
+                        document=document,
                     )
                     response["service"] = service.__name__
                     forecast_object["forecasts"][hour][service.__name__] = response

@@ -67,7 +67,9 @@ def retrieve(location_object, target_local_time):
     # Retrieving the issue time, forecast age
     metadata = soup.find("model", attrs={"name": "met_public_forecast"})
     if not metadata:
-        raise BadResponse({"service": SERVICE_NAME, "key": "model name=met_public_forecast"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "key": "model name=met_public_forecast"}
+        )
     try:
         issue_time = metadata["runended"]
     except KeyError:
@@ -162,7 +164,9 @@ def find_in_document(location_object, target_local_time, document):
     # Retrieving the issue time, forecast age
     metadata = xml.find("model", attrs={"name": "met_public_forecast"})
     if not metadata:
-        raise BadResponse({"service": SERVICE_NAME, "key": "model name=met_public_forecast"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "key": "model name=met_public_forecast"}
+        )
     try:
         issue_time = metadata["runended"]
     except KeyError:
