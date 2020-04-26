@@ -90,7 +90,7 @@ def parse_bomgovau_merge_date_as_dt_and_hour_as_string(
     """
     date_dt_string = date_dt.format("YYYY-DD-MM")
     merged = pendulum.from_format(
-        date_dt_string + " " + hour_string, fmt="YYYY-DD-MM H:m A", tz=target_timezone
+        date_dt_string + " " + hour_string, fmt="YYYY-DD-MM h:m A", tz=target_timezone
     )
     datetime_utc = merged.in_tz("UTC")
     return datetime_utc
