@@ -246,7 +246,9 @@ def local_string_to_range_of_local_strings(
         next_n_hours = hours_between_datetimes(start=start, end=end)
 
     datetimes = [time_local_start]
-    for i in count_to(next_n_hours):
+    for i in count_to(
+        next_n_hours - 1
+    ):  # Otherwise captures (next hour + n) instead of just (n next hours)
         datetimes.append(start.add(hours=i))
 
     datetime_strings = [datetime_to_simple_string(elt) for elt in datetimes]
