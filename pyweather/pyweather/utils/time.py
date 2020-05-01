@@ -63,6 +63,10 @@ def parse_bomgovau_raw_footer_string_to_utc_datetime(raw_string):
     Output:
         Pendulum datetime object (UTC)
     """
+    # Remove any duplicate spaces first
+    raw_string = raw_string.split("  ", " ")
+
+
     tokens = raw_string.split(" ")
     hour_min, _, day_word, day_num, month_word, year_num, timezone = tokens
     structured_string = f"{day_num} {month_word} {year_num}, {hour_min}"

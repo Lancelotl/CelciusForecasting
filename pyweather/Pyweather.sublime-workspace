@@ -71,7 +71,7 @@
 			"file": "pyweather/utils/time.py",
 			"settings":
 			{
-				"buffer_size": 6191,
+				"buffer_size": 6154,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -411,15 +411,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6191,
+						"buffer_size": 6154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5677,
-								5677
+								2266,
+								2266
 							]
 						],
 						"settings":
@@ -428,8 +428,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 4878.0,
+						"translation.x": 88.0,
+						"translation.y": 1661.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -511,7 +511,7 @@
 	"project": "Pyweather.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
