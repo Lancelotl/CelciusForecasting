@@ -134,6 +134,8 @@ def find_in_document(location_object, target_local_time, document):
         raise BadResponse(
             {"service": SERVICE_NAME, "key": "vt1hourlyForecast > temperatures"}
         )
+    if len(hours_local) != len(temperatures):
+        raise UnexpectedFormat({"service": SERVICE_NAME, "key": "Different number of hours and temperatures"})
 
     for hour, temperature in zip(hours_local, temperatures):
         if hour == target_time_formatted:
