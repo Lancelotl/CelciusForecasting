@@ -59,19 +59,19 @@ def parse_bomgovau_raw_footer_string_to_utc_datetime(raw_string):
     For bom.gov.au
     Input:
         '09:55 on Sunday 12 April 2020 (UTC)'
+        '12:01 on Friday  1 May 2020 (UTC)'
         
     Output:
         Pendulum datetime object (UTC)
     """
     # Remove any duplicate spaces first
-    raw_string = raw_string.split("  ", " ")
-
+    raw_string = raw_string.replace("  ", " ")
 
     tokens = raw_string.split(" ")
     hour_min, _, day_word, day_num, month_word, year_num, timezone = tokens
     structured_string = f"{day_num} {month_word} {year_num}, {hour_min}"
     datetime_utc = pendulum.from_format(
-        structured_string, "DD MMMM YYYY, HH:mm", tz="UTC"
+        structured_string, "D MMMM YYYY, HH:mm", tz="UTC"
     )
     return datetime_utc
 
@@ -113,6 +113,22 @@ def parse_bom_gov(date_attribute, timezone):
     """
     date = pendulum.from_format(date_attribute[1:], "YYYY-MM-DD", tz=timezone)
     return date
+
+
+def parse_weathercom(raw_string):
+    """For Weather.com
+
+    Input:
+        raw_string
+            '2020-05-07T03:00:00+1000'
+        hour_string
+            '1:00 AM' format "H:m A"
+        target_timezone
+
+    Output:
+        Pendulum datetime object (UTC)
+    """
+    return pendulum.parse(raw_string).in_tz("UTC")
 
 
 def format_accuweather(datetime_utc):
@@ -188,6 +204,17 @@ def local_string_to_utc_string(time_local, timezone, format_func):
     dt_local = pendulum.parse(time_local, tz=timezone)
     dt_utc = dt_local.in_tz("UTC")
     return format_func(dt_utc)
+
+
+def local_string_to_weathercom_string(time_local, timezone):
+    """Takes a local date as a string of the format:
+        '2020-04-11T09:00'
+    Returns the equivalent string in UTC
+        '2020-05-09T00:00:00+1000'
+    """
+    dt_local = pendulum.parse(time_local, tz=timezone)
+    return dt_local.format("YYYY-MM-DDThh:mm:ssZZ")
+    return str(dt_local)
 
 
 def datetime_to_simple_string(date_dt):

@@ -77,7 +77,7 @@ def retrieve(location_object, target_local_time):
         issue_time = response["features"][0]["properties"]["modelRunDate"]
     except KeyError:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "features/properties/modelRunDate"}
+            {"service": SERVICE_NAME, "key": "features > properties > modelRunDate"}
         )
     forecast_age_hours = hours_since_utc_datetime(
         utc_string_to_utc_datetime(issue_time)
@@ -91,7 +91,7 @@ def retrieve(location_object, target_local_time):
         forecasts = response["features"][0]["properties"]["timeSeries"]
     except KeyError:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "features/properties/timeSeries"}
+            {"service": SERVICE_NAME, "key": "features > properties > timeSeries"}
         )
 
     for forecast in forecasts:
@@ -174,7 +174,7 @@ def find_in_document(location_object, target_local_time, document):
         issue_time = response["features"][0]["properties"]["modelRunDate"]
     except KeyError:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "features/properties/modelRunDate"}
+            {"service": SERVICE_NAME, "key": "features > properties > modelRunDate"}
         )
     forecast_age_hours = hours_since_utc_datetime(
         utc_string_to_utc_datetime(issue_time)
@@ -188,7 +188,7 @@ def find_in_document(location_object, target_local_time, document):
         forecasts = response["features"][0]["properties"]["timeSeries"]
     except KeyError:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "features/properties/timeSeries"}
+            {"service": SERVICE_NAME, "key": "features > properties > timeSeries"}
         )
 
     for forecast in forecasts:
