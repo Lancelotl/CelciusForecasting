@@ -137,7 +137,7 @@ def find_in_document(location_object, target_local_time, document):
 
     for hour, temperature in zip(hours_local, temperatures):
         if hour == target_time_formatted:
-            temperature = Decimal(temperature)
+            temperature = round(Decimal(temperature), DECIMAL_PLACES)
             return {
                 "ok": True,
                 "time_utc": target_time_utc,
