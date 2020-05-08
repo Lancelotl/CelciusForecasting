@@ -213,8 +213,7 @@ def local_string_to_weathercom_string(time_local, timezone):
         '2020-05-09T00:00:00+1000'
     """
     dt_local = pendulum.parse(time_local, tz=timezone)
-    return dt_local.format("YYYY-MM-DDTH:mm:ssZZ")
-    return str(dt_local)
+    return dt_local.format("YYYY-MM-DDTHH:mm:ssZZ")
 
 
 def datetime_to_simple_string(date_dt):
