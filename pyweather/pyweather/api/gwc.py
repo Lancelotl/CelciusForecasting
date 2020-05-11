@@ -4,7 +4,6 @@ from decimal import Decimal
 from ..utils.time import (
     local_string_to_utc_string,
     format_standard,
-    local_string_to_weathercom_string,
     gwc_next_24h_start_end,
     format_gwc_url_dates,
     local_string_to_gwc_string_search,
