@@ -10,7 +10,7 @@ from ..utils.time import (
 )
 from ..utils.conversions import farenheit_to_celcius, celcius_to_farenheit
 from ..utils.api_keys import find_key
-from ..exceptions import HttpError, BadResponse, OutOfRange
+from ..exceptions import HttpError, BadResponse, OutOfRange, UnexpectedFormat
 
 
 ENDPOINT = "https://api.weather.com/v2/turbo/vt1hourlyForecast?apiKey={api_key}&format=json&geocode={latitude}%2C{longitude}&language=en-US&units={units}"
@@ -140,7 +140,12 @@ def find_in_document(location_object, target_local_time, document):
             {"service": SERVICE_NAME, "message": "vt1hourlyForecast > temperatures"}
         )
     if len(hours_local) != len(temperatures):
-        raise UnexpectedFormat({"service": SERVICE_NAME, "message": "Different number of hours and temperatures"})
+        raise UnexpectedFormat(
+            {
+                "service": SERVICE_NAME,
+                "message": "Different number of hours and temperatures",
+            }
+        )
 
     for hour, temperature in zip(hours_local, temperatures):
         if hour == target_time_formatted:

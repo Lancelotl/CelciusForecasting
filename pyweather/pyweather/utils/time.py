@@ -1,5 +1,4 @@
 import pendulum
-from ..exceptions import UnexpectedFormat
 
 
 def utc_string_to_utc_datetime(time_utc):
@@ -286,7 +285,7 @@ def local_string_to_range_of_local_strings(
     return datetime_strings
 
 
-def next_hour_in_tz(timezone):
+def next_hour_in_tz():
     """Returns a local datetime for the next round hour in the target timezone
     Input:
         Timezone
@@ -295,13 +294,13 @@ def next_hour_in_tz(timezone):
     Expected output:
         Pendulum datetime object (local)
     """
-    now = pendulum.now().in_tz(timezone)
+    now = pendulum.now().in_tz("UTC")
     next_hour = now.start_of("hour").add(hours=1)
 
     return next_hour
 
 
-def gwc_next_24h_start_end(timezone):
+def gwc_next_24h_start_end():
     """Returns a start and end datetimes (local) used to query the GWC API
     Input:
         Timezone
@@ -314,7 +313,7 @@ def gwc_next_24h_start_end(timezone):
             Pendulum datetime object (local)
         )
     """
-    start = next_hour_in_tz(timezone)
+    start = next_hour_in_tz()
     end = start.add(hours=24)
 
     return start, end

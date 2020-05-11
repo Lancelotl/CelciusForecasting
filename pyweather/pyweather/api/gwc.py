@@ -51,7 +51,7 @@ def retrieve_document(location_object):
 
     Returns a document that contains Farenheit temperatures
     """
-    start_date, end_date = gwc_next_24h_start_end(location_object["timezone"])
+    start_date, end_date = gwc_next_24h_start_end()
     start_date, end_date = (
         format_gwc_url_dates(start_date),
         format_gwc_url_dates(end_date),
