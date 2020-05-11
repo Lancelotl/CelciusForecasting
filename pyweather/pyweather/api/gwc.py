@@ -125,7 +125,7 @@ def find_in_document(location_object, target_local_time, document):
                             }
                         )
                     temperature = farenheit_to_celcius(temperature)
-                    round(Decimal(temperature), DECIMAL_PLACES)
+                    temperature = round(Decimal(temperature), DECIMAL_PLACES)
                     return {
                         "ok": True,
                         "time_utc": target_time_utc,
