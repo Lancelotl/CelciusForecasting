@@ -9,6 +9,7 @@ from ..utils.time import (
     format_gwc_url_dates,
     local_string_to_gwc_string_search,
     parse_gwc,
+    normalize_gwc,
 )
 from ..utils.conversions import farenheit_to_celcius
 from ..utils.api_keys import find_key
@@ -50,7 +51,7 @@ def retrieve_document(location_object):
 
     Returns a document that contains Farenheit temperatures
     """
-    start_date, end_date = gwc_next_24h_start_end()
+    start_date, end_date = gwc_next_24h_start_end(location_object["timezone"])
     start_date, end_date = (
         format_gwc_url_dates(start_date),
         format_gwc_url_dates(end_date),
@@ -114,8 +115,8 @@ def find_in_document(location_object, target_local_time, document):
                             "message": "times > points > dataType",
                         }
                     )
-                if data_type == temp:
-                    temperature = data_type.get("value")
+                if data_type == "temp":
+                    temperature = measurement.get("value")
                     if not temperature:
                         raise BadResponse(
                             {
@@ -124,6 +125,7 @@ def find_in_document(location_object, target_local_time, document):
                             }
                         )
                     temperature = farenheit_to_celcius(temperature)
+                    round(Decimal(temperature), DECIMAL_PLACES)
                     return {
                         "ok": True,
                         "time_utc": target_time_utc,
@@ -132,6 +134,7 @@ def find_in_document(location_object, target_local_time, document):
                         "forecast_issue_time": None,
                     }
             else:
+                # Found no point with a 'dataType' == 'temp'
                 raise UnexpectedFormat(
                     {
                         "service": SERVICE_NAME,
@@ -140,7 +143,7 @@ def find_in_document(location_object, target_local_time, document):
                 )
     else:
         # Exhausted list of forecasts
-        latest_time = format_standard(parse_weathercom(hour))
+        latest_time = format_standard(parse_gwc(hour, timezone=location_object["timezone"]))
         raise OutOfRange(
             {
                 "service": SERVICE_NAME,

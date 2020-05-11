@@ -3,5 +3,6 @@ from . import (
     bom,
     met,
     yrno,
-    weathercom
+    weathercom,
+    gwc
 )

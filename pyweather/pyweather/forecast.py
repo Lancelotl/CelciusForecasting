@@ -1,4 +1,4 @@
-from .services import BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM
+from .services import BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM, GWC
 from .exceptions import OutOfRange
 from .utils.time import local_string_to_range_of_local_strings
 from decimal import Decimal
@@ -28,7 +28,7 @@ class Forecast:
             MET,
             ACCUWEATHER,
             YRNO,
-        ],  # Adding WEATHERCOM would require a .retrieve() method
+        ],  # Adding WEATHERCOM, GWC would require a .retrieve() method
     ):
         self.location_object = location_object
         self.local_date = local_date
@@ -101,7 +101,7 @@ class HourlyForecast:
         local_date_start,
         local_date_end=None,
         next_n_hours=None,
-        services=[BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM],
+        services=[BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM, GWC],
     ):
         self.location_object = location_object
         self.local_date_start = local_date_start
@@ -169,7 +169,7 @@ class HourlyForecast:
 if __name__ == "__main__":
     from pyweather.forecast import Forecast
     from pyweather.locations import LOCATIONS
-    from pyweather.services import BOM, MET, YRNO, ACCUWEATHER, WEATHERCOM
+    from pyweather.services import BOM, MET, YRNO, ACCUWEATHER, WEATHERCOM, GWC
 
     from pprint import pprint
 
