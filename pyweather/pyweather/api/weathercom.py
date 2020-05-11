@@ -26,7 +26,12 @@ def fetch(location_object, units="m"):
             "m" (metric, celcius)
             "e" (imperial, farenheit)
     """
-    api_key = find_key("WEATHERCOM_API_KEY")
+    if os.getenv("WEATHERCOM_API_KEY_ALT"):
+        api_keys = ["WEATHERCOM_API_KEY", "WEATHERCOM_API_KEY_ALT"]
+        api_key_name = random.choice(api_keys)
+        api_key = find_key(api_key_name)
+    else:
+        api_key = find_key("WEATHERCOM_API_KEY")
     latitude, longitude = location_object["coordinates"]
     r = requests.get(
         ENDPOINT.format(
@@ -65,7 +70,7 @@ def retrieve_document(location_object):
     )
     if not temperatures["farenheit"] or not temperatures["celcius"]:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "vt1hourlyForecast > temperature"}
+            {"service": SERVICE_NAME, "message": "vt1hourlyForecast > temperature"}
         )
 
     # Converting all to decimals
@@ -128,14 +133,14 @@ def find_in_document(location_object, target_local_time, document):
     )
     if not hours_local:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "vt1hourlyForecast > processTime"}
+            {"service": SERVICE_NAME, "message": "vt1hourlyForecast > processTime"}
         )
     if not temperatures:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "vt1hourlyForecast > temperatures"}
+            {"service": SERVICE_NAME, "message": "vt1hourlyForecast > temperatures"}
         )
     if len(hours_local) != len(temperatures):
-        raise UnexpectedFormat({"service": SERVICE_NAME, "key": "Different number of hours and temperatures"})
+        raise UnexpectedFormat({"service": SERVICE_NAME, "message": "Different number of hours and temperatures"})
 
     for hour, temperature in zip(hours_local, temperatures):
         if hour == target_time_formatted:
@@ -153,6 +158,6 @@ def find_in_document(location_object, target_local_time, document):
         raise OutOfRange(
             {
                 "service": SERVICE_NAME,
-                "key": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
+                "message": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
             }
         )

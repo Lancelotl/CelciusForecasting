@@ -68,12 +68,12 @@ def retrieve(location_object, target_local_time):
     metadata = soup.find("model", attrs={"name": "met_public_forecast"})
     if not metadata:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "model name=met_public_forecast"}
+            {"service": SERVICE_NAME, "message": "model name=met_public_forecast"}
         )
     try:
         issue_time = metadata["runended"]
     except KeyError:
-        BadResponse({"service": SERVICE_NAME, "key": "model/runended"})
+        BadResponse({"service": SERVICE_NAME, "message": "model/runended"})
     forecast_age_hours = hours_since_utc_datetime(
         utc_string_to_utc_datetime(issue_time)
     )
@@ -84,7 +84,7 @@ def retrieve(location_object, target_local_time):
     # Retrieving the forecasted temperature
     pointdata = soup.find("product", attrs={"class": "pointData"})
     if not pointdata:
-        raise BadResponse({"service": SERVICE_NAME, "key": "product class=pointData"})
+        raise BadResponse({"service": SERVICE_NAME, "message": "product class=pointData"})
     forecast = pointdata.find(
         name="time",
         attrs={
@@ -94,15 +94,15 @@ def retrieve(location_object, target_local_time):
         },
     )
     if not forecast:
-        raise BadResponse({"service": SERVICE_NAME, "key": "time datatype=forecast"})
+        raise BadResponse({"service": SERVICE_NAME, "message": "time datatype=forecast"})
     try:
         temperature = forecast.find("location").find(
             name="temperature", attrs={"id": "TTT", "unit": "celsius"}
         )["value"]
     except KeyError:
-        BadResponse({"service": SERVICE_NAME, "key": "temperature/value"})
+        BadResponse({"service": SERVICE_NAME, "message": "temperature/value"})
     if not temperature:
-        BadResponse({"service": SERVICE_NAME, "key": "temperature id=TTT"})
+        BadResponse({"service": SERVICE_NAME, "message": "temperature id=TTT"})
     temperature = round(Decimal(temperature), DECIMAL_PLACES)
 
     if temperature:
@@ -165,12 +165,12 @@ def find_in_document(location_object, target_local_time, document):
     metadata = xml.find("model", attrs={"name": "met_public_forecast"})
     if not metadata:
         raise BadResponse(
-            {"service": SERVICE_NAME, "key": "model name=met_public_forecast"}
+            {"service": SERVICE_NAME, "message": "model name=met_public_forecast"}
         )
     try:
         issue_time = metadata["runended"]
     except KeyError:
-        BadResponse({"service": SERVICE_NAME, "key": "model/runended"})
+        BadResponse({"service": SERVICE_NAME, "message": "model/runended"})
     forecast_age_hours = hours_since_utc_datetime(
         utc_string_to_utc_datetime(issue_time)
     )
@@ -181,7 +181,7 @@ def find_in_document(location_object, target_local_time, document):
     # Retrieving the forecasted temperature
     pointdata = xml.find("product", attrs={"class": "pointData"})
     if not pointdata:
-        raise BadResponse({"service": SERVICE_NAME, "key": "product class=pointData"})
+        raise BadResponse({"service": SERVICE_NAME, "message": "product class=pointData"})
     forecast = pointdata.find(
         name="time",
         attrs={
@@ -191,15 +191,15 @@ def find_in_document(location_object, target_local_time, document):
         },
     )
     if not forecast:
-        raise BadResponse({"service": SERVICE_NAME, "key": "time datatype=forecast"})
+        raise BadResponse({"service": SERVICE_NAME, "message": "time datatype=forecast"})
     try:
         temperature = forecast.find("location").find(
             name="temperature", attrs={"id": "TTT", "unit": "celsius"}
         )["value"]
     except KeyError:
-        BadResponse({"service": SERVICE_NAME, "key": "temperature/value"})
+        BadResponse({"service": SERVICE_NAME, "message": "temperature/value"})
     if not temperature:
-        BadResponse({"service": SERVICE_NAME, "key": "temperature id=TTT"})
+        BadResponse({"service": SERVICE_NAME, "message": "temperature id=TTT"})
     temperature = round(Decimal(temperature), DECIMAL_PLACES)
 
     if temperature:

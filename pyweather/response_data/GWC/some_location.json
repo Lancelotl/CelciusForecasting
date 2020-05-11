@@ -1,0 +1,2146 @@
+{
+  "timezoneoffset": 10.0,
+  "timezone": "Australia/Sydney",
+  "startDate": "20200512T00",
+  "endDate": "20200512T23",
+  "latitude": -29.3573,
+  "longitude": 149.2,
+  "times": [
+    {
+      "validDate": "Tue May 12 00:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "45.0"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "145.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "37.9"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "65.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "77.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "14.3"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 01:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "44.1"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "135.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "37.8"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "80.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "79.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.8"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 02:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "43.9"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "125.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "37.9"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "90.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "80.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.8"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 03:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "43.3"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "115.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "38.1"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "90.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "82.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.1"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 04:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "42.6"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "100.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "38.8"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "95.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "86.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.3"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 05:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "43.0"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "90.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "39.2"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "86.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.8"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 06:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "42.8"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "80.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "39.6"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "88.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1006.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.8"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 07:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "43.9"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "80.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "40.3"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "87.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1006.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "4.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "8.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "12.5"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 08:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "48.6"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "80.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "6.7"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "42.6"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "80.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1006.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "88.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "11.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "11.4"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 09:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "53.6"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "70.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "6.7"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "43.3"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "68.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1007.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "236.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "12.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "8.5"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 10:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "57.9"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "55.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "43.5"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "59.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1006.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "380.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "11.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "7.6"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 11:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "61.9"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "55.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "42.8"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "100.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "50.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1006.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "499.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "11.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "6.9"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 12:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "65.3"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "35.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "4.5"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "41.9"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "95.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "43.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1005.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "577.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "9.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 13:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "66.7"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "35.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "3.4"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "40.1"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "95.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "38.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "547.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "7.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "4.7"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 14:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "67.8"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "25.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "2.2"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "39.9"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "95.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "36.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1003.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "478.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "4.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "3.8"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 15:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "68.4"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "45.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "1.1"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "38.7"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "95.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "34.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1003.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "400.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "2.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "1.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "2.9"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 16:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "67.8"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "90.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "1.1"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "37.4"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "90.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "33.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1003.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "263.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "2.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "2.2"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 17:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "62.4"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "125.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "4.5"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "44.8"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "70.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "53.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1003.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "98.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "9.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "3.4"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 18:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "57.0"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "125.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "39.9"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "60.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "53.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1003.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "4.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "9.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "5.1"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Partly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 19:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "53.8"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "120.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "40.1"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "75.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "60.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "1.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "6.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "6.5"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 20:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "52.7"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "135.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "40.8"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "70.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "64.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "6.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "7.4"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 21:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "50.5"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "135.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "42.1"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "65.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "73.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "6.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "8.1"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Mostly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 22:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "48.7"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "120.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "5.6"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "42.6"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "35.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "80.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "1.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "6.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "9.2"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Partly Clear "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "validDate": "Tue May 12 23:00:00 EST 2020",
+      "points": [
+        {
+          "dataType": "temp",
+          "value": "47.7"
+        },
+        {
+          "dataType": "probprecip",
+          "value": "0.0"
+        },
+        {
+          "dataType": "winddir",
+          "value": "110.0"
+        },
+        {
+          "dataType": "windspeed",
+          "value": "6.7"
+        },
+        {
+          "dataType": "preciptype",
+          "value": "1.0"
+        },
+        {
+          "dataType": "dewpoint",
+          "value": "42.1"
+        },
+        {
+          "dataType": "cloudcover",
+          "value": "40.0"
+        },
+        {
+          "dataType": "rh",
+          "value": "81.0"
+        },
+        {
+          "dataType": "probtstorm",
+          "value": "0.0"
+        },
+        {
+          "dataType": "visibility",
+          "value": "10.0"
+        },
+        {
+          "dataType": "surfacepressure",
+          "value": "1004.0"
+        },
+        {
+          "dataType": "solarirradiance",
+          "value": "0.0"
+        },
+        {
+          "dataType": "kucherasnowrate",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windgustspeed",
+          "value": "7.0"
+        },
+        {
+          "dataType": "uvindex",
+          "value": "0.0"
+        },
+        {
+          "dataType": "windspeedhubheight",
+          "value": "9.2"
+        },
+        {
+          "dataType": "preciprateperhour",
+          "value": "0.0"
+        },
+        {
+          "dataType": "sunset",
+          "value": "17:21"
+        },
+        {
+          "dataType": "conditionstext",
+          "value": "Partly Cloudy "
+        },
+        {
+          "dataType": "sunrise",
+          "value": "06:38"
+        },
+        {
+          "dataType": "conditions",
+          "value": "19"
+        }
+      ]
+    }
+  ]
+}

@@ -247,7 +247,7 @@ def count_to(n):
 def local_string_to_range_of_local_strings(
     time_local_start, time_local_end=None, next_n_hours=None
 ):
-    """Computes the number of hours between two dates as strings:
+    """Returns a range of dates as strings:
     Input:
         time_local_start = '2020-04-26T13:00'
 
@@ -284,3 +284,102 @@ def local_string_to_range_of_local_strings(
     datetime_strings = [datetime_to_simple_string(elt) for elt in datetimes]
 
     return datetime_strings
+
+
+def next_hour_in_tz(timezone):
+    """Returns a local datetime for the next round hour in the target timezone
+    Input:
+        Timezone
+            "Australia/Sydney"
+
+    Expected output:
+        Pendulum datetime object (local)
+    """
+    now = pendulum.now().in_tz(timezone)
+    next_hour = now.start_of("hour").add(hours=1)
+
+    return next_hour
+
+
+def gwc_next_24h_start_end(timezone):
+    """Returns a start and end datetimes (local) used to query the GWC API
+    Input:
+        Timezone
+            "Australia/Sydney"
+
+    Expected output:
+        Tuple (start, end)
+        (
+            Pendulum datetime object (local),
+            Pendulum datetime object (local)
+        )
+    """
+    start = next_hour_in_tz(timezone)
+    end = start.add(hours=24)
+
+    return start, end
+
+
+def format_gwc_url_dates(datetime_local):
+    """Formats a pendulum datetime object for GWC
+    This is the date that is used in the URL
+
+    Input:
+        Pendulum datetime object (local)
+
+    Expected output:
+        '20200511T14'
+
+    Context:
+        https://.../20200511T14-20200512T13timeinterval...
+    """
+
+    return datetime_local.format("YYYYMMDDTHH")
+
+
+def local_string_to_gwc_string_search(time_local, timezone):
+    """Takes a local date as a string of the format:
+        '2020-05-12T09:00'
+
+    Returns the equivalent string in UTC
+        'Tue May 12 09:00:00 2020'
+    """
+    dt_local = pendulum.parse(time_local, tz=timezone)
+
+    return dt_local.format("ddd MMMM DD HH:mm:ss YYYY")
+
+
+def normalize_gwc(raw_string):
+    """Normalizes the GWC dates as strings.
+
+    Helps removes timezone names (EST) that are inconsistent
+    with pendulum (AEST)
+
+    Input:
+        'Tue May 12 23:00:00 EST 2020'
+
+    Output:
+        'Tue May 12 23:00:00 2020'
+    """
+    stripped = raw_string.split(" ")
+    stripped = " ".join(stripped[:-2] + stripped[-1:])
+    return stripped
+
+
+def parse_gwc(raw_string, timezone):
+    """Parses the GWC
+
+    Input:
+        raw_string
+            'Tue May 12 23:00:00 EST 2020'
+
+        target_timezone
+            'Australia/Sydney'
+
+    Output:
+        Pendulum datetime object (UTC)
+    """
+    stripped = normalize_gwc(raw_string)
+    pendulum.from_format(stripped, "ddd MMMM DD HH:mm:ss YYYY").in_tz(timezone)
+
+    return pendulum.parse(raw_string)

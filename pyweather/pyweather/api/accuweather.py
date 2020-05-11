@@ -74,23 +74,23 @@ def retrieve(location_object, target_local_time):
         try:
             time = forecast["EpochDateTime"]
         except KeyError:
-            raise BadResponse({"service": SERVICE_NAME, "key": "EpochDateTime"})
+            raise BadResponse({"service": SERVICE_NAME, "message": "EpochDateTime"})
         if time == target_time_formatted:
             try:
                 temperature = forecast["Temperature"]["Value"]
             except KeyError:
                 raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temperature > Value"}
+                    {"service": SERVICE_NAME, "message": "Temperature > Value"}
                 )
             temperature = round(Decimal(temperature), DECIMAL_PLACES)
             try:
                 unit = forecast["Temperature"]["Unit"]
             except KeyError:
                 raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temparature > Unit"}
+                    {"service": SERVICE_NAME, "message": "Temparature > Unit"}
                 )
             if unit != "C":
-                raise UnexpectedFormat({"service": SERVICE_NAME, "key": "unit == C"})
+                raise UnexpectedFormat({"service": SERVICE_NAME, "message": "unit == C"})
 
             return {
                 "ok": True,
@@ -105,7 +105,7 @@ def retrieve(location_object, target_local_time):
         raise OutOfRange(
             {
                 "service": SERVICE_NAME,
-                "key": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
+                "message": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
             }
         )
 
@@ -155,23 +155,23 @@ def find_in_document(location_object, target_local_time, document):
         try:
             time = forecast["EpochDateTime"]
         except KeyError:
-            raise BadResponse({"service": SERVICE_NAME, "key": "EpochDateTime"})
+            raise BadResponse({"service": SERVICE_NAME, "message": "EpochDateTime"})
         if time == target_time_formatted:
             try:
                 temperature = forecast["Temperature"]["Value"]
             except KeyError:
                 raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temperature > Value"}
+                    {"service": SERVICE_NAME, "message": "Temperature > Value"}
                 )
             temperature = round(Decimal(temperature), DECIMAL_PLACES)
             try:
                 unit = forecast["Temperature"]["Unit"]
             except KeyError:
                 raise BadResponse(
-                    {"service": SERVICE_NAME, "key": "Temparature > Unit"}
+                    {"service": SERVICE_NAME, "message": "Temparature > Unit"}
                 )
             if unit != "C":
-                raise UnexpectedFormat({"service": SERVICE_NAME, "key": "unit == C"})
+                raise UnexpectedFormat({"service": SERVICE_NAME, "message": "unit == C"})
 
             return {
                 "ok": True,
@@ -186,6 +186,6 @@ def find_in_document(location_object, target_local_time, document):
         raise OutOfRange(
             {
                 "service": SERVICE_NAME,
-                "key": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
+                "message": f"Could not find a forecast for {target_time_utc}. Latest is {latest_time}.",
             }
         )
