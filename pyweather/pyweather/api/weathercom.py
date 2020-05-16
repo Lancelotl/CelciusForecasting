@@ -39,7 +39,12 @@ def fetch(location_object, units="m"):
         )
     )
     if r.ok:
-        return r.json()
+        response = r.json()
+        if not response:
+            response_excerpt = r.text[:100]
+            raise BadResponse({"service": SERVICE_NAME, "message": "Empty page with code {r._status_code}. Full response: {response_excerpt}..."})
+        else:
+            return response
     else:
         raise HttpError({"service": SERVICE_NAME, "response": r.status_code})
 
