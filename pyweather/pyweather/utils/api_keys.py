@@ -1,5 +1,7 @@
 import os
+import random
 from ..exceptions import MissingAPIKey
+
 
 def find_key(key_name):
     """Attempts to find the following API key in the environment variables"""

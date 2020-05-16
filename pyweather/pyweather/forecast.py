@@ -1,5 +1,5 @@
 from .services import BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM, GWC
-from .exceptions import OutOfRange
+from .exceptions import OutOfRange, HttpError
 from .utils.time import local_string_to_range_of_local_strings
 from decimal import Decimal
 
@@ -150,7 +150,21 @@ class HourlyForecast:
 
         for service in self.services:
             forecast_object["services"].append(service.__name__)
-            document = service.retrieve_document(self.location_object)
+            try:
+                document = service.retrieve_document(self.location_object)
+            except HttpError:
+                # Accuweather may raise a 503
+                # Likely happens when quotas has been reached
+                from .utils.api_keys_rotation import KeyHandler
+
+                key = KeyHandler()
+                key.refresh("ACCUWEATHER")
+                try:
+                    document = service.retrieve_document(self.location_object)
+                except HttpError:
+                    # Rotating the key did not help
+                    # Service may be actually down
+                    continue
             for hour in self.local_dates:
                 try:
                     response = service.find_in_document(

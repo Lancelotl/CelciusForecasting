@@ -1,6 +1,7 @@
 .DS_Store
 *.sublime-workspace
 *.sublime-project
+api_keys_rotation.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
