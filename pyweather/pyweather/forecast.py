@@ -162,9 +162,22 @@ class HourlyForecast:
                 try:
                     document = service.retrieve_document(self.location_object)
                 except HttpError:
-                    # Rotating the key did not help
-                    # Service may be actually down
-                    continue
+                    # Trying again one last time
+                    try:
+                        document = service.retrieve_document(self.location_object)
+                    except HttpError:
+                        # Accuweather may raise a 503
+                        # Likely happens when quotas has been reached
+                        from .utils.api_keys_rotation import KeyHandler
+
+                        key = KeyHandler()
+                        key.refresh("ACCUWEATHER")
+                        try:
+                            document = service.retrieve_document(self.location_object)
+                        except HttpError:
+                            # Rotating the key did not help
+                            # Service may be actually down
+                            continue
             for hour in self.local_dates:
                 try:
                     response = service.find_in_document(
