@@ -9,6 +9,7 @@ from ..utils.time import (
     timestamp_to_utc_datetime,
 )
 from ..utils.api_keys import find_key
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse, UnexpectedFormat, OutOfRange
 
 
@@ -25,10 +26,13 @@ def fetch(location_object):
         api_key = find_key(api_key_name)
     else:
         api_key = find_key("ACCUWEATHER_API_KEY")
+    browser_profile = Browser()
+    headers = browser_profile.headers
     r = requests.get(
         ENDPOINT.format(
             location_key=location_object["accuweather_location_key"], api_key=api_key,
-        )
+        ),
+        headers=headers,
     )
     if r.ok:
         return r.json()
@@ -90,7 +94,9 @@ def retrieve(location_object, target_local_time):
                     {"service": SERVICE_NAME, "message": "Temparature > Unit"}
                 )
             if unit != "C":
-                raise UnexpectedFormat({"service": SERVICE_NAME, "message": "unit == C"})
+                raise UnexpectedFormat(
+                    {"service": SERVICE_NAME, "message": "unit == C"}
+                )
 
             return {
                 "ok": True,
@@ -171,7 +177,9 @@ def find_in_document(location_object, target_local_time, document):
                     {"service": SERVICE_NAME, "message": "Temparature > Unit"}
                 )
             if unit != "C":
-                raise UnexpectedFormat({"service": SERVICE_NAME, "message": "unit == C"})
+                raise UnexpectedFormat(
+                    {"service": SERVICE_NAME, "message": "unit == C"}
+                )
 
             return {
                 "ok": True,

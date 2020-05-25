@@ -10,6 +10,7 @@ from ..utils.time import (
 )
 from ..utils.conversions import farenheit_to_celcius, celcius_to_farenheit
 from ..utils.api_keys import find_key
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse, OutOfRange, UnexpectedFormat
 
 
@@ -33,16 +34,24 @@ def fetch(location_object, units="m"):
     else:
         api_key = find_key("WEATHERCOM_API_KEY")
     latitude, longitude = location_object["coordinates"]
+    browser_profile = Browser()
+    headers = browser_profile.headers
     r = requests.get(
         ENDPOINT.format(
             latitude=latitude, longitude=longitude, api_key=api_key, units=units
-        )
+        ),
+        headers=headers,
     )
     if r.ok:
         response = r.json()
         if not response:
             response_excerpt = r.text[:100]
-            raise BadResponse({"service": SERVICE_NAME, "message": "Empty page with code {r._status_code}. Full response: {response_excerpt}..."})
+            raise BadResponse(
+                {
+                    "service": SERVICE_NAME,
+                    "message": "Empty page with code {r._status_code}. Full response: {response_excerpt}...",
+                }
+            )
         else:
             return response
     else:

@@ -12,6 +12,7 @@ from ..utils.time import (
 )
 from ..utils.conversions import farenheit_to_celcius
 from ..utils.api_keys import find_key
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse, UnexpectedFormat, OutOfRange
 
 
@@ -26,6 +27,8 @@ def fetch(location_object, start_date, end_date):
     """
     api_key = find_key("GWC_API_KEY")
     latitude, longitude = location_object["coordinates"]
+    browser_profile = Browser()
+    headers = browser_profile.headers
     r = requests.get(
         ENDPOINT.format(
             latitude=latitude,
@@ -33,7 +36,8 @@ def fetch(location_object, start_date, end_date):
             api_key=api_key,
             start_date=start_date,
             end_date=end_date,
-        )
+        ),
+        headers=headers,
     )
     if r.ok:
         return r.json()
@@ -142,7 +146,9 @@ def find_in_document(location_object, target_local_time, document):
                 )
     else:
         # Exhausted list of forecasts
-        latest_time = format_standard(parse_gwc(hour, timezone=location_object["timezone"]))
+        latest_time = format_standard(
+            parse_gwc(hour, timezone=location_object["timezone"])
+        )
         raise OutOfRange(
             {
                 "service": SERVICE_NAME,

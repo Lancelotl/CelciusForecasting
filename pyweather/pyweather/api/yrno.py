@@ -10,6 +10,7 @@ from ..utils.time import (
     hours_since_utc_datetime,
     decaminutes_since_utc_datetime,
 )
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse
 
 ENDPOINT = (
@@ -22,7 +23,11 @@ SERVICE_NAME = "Yr.no"
 
 def fetch(location_object):
     latitude, longitude = location_object["coordinates"]
-    r = requests.get(ENDPOINT.format(latitude=latitude, longitude=longitude))
+    browser_profile = Browser()
+    headers = browser_profile.headers
+    r = requests.get(
+        ENDPOINT.format(latitude=latitude, longitude=longitude), headers=headers
+    )
     if r.ok:
         return r.text
     else:
@@ -84,7 +89,9 @@ def retrieve(location_object, target_local_time):
     # Retrieving the forecasted temperature
     pointdata = soup.find("product", attrs={"class": "pointData"})
     if not pointdata:
-        raise BadResponse({"service": SERVICE_NAME, "message": "product class=pointData"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "message": "product class=pointData"}
+        )
     forecast = pointdata.find(
         name="time",
         attrs={
@@ -94,7 +101,9 @@ def retrieve(location_object, target_local_time):
         },
     )
     if not forecast:
-        raise BadResponse({"service": SERVICE_NAME, "message": "time datatype=forecast"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "message": "time datatype=forecast"}
+        )
     try:
         temperature = forecast.find("location").find(
             name="temperature", attrs={"id": "TTT", "unit": "celsius"}
@@ -181,7 +190,9 @@ def find_in_document(location_object, target_local_time, document):
     # Retrieving the forecasted temperature
     pointdata = xml.find("product", attrs={"class": "pointData"})
     if not pointdata:
-        raise BadResponse({"service": SERVICE_NAME, "message": "product class=pointData"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "message": "product class=pointData"}
+        )
     forecast = pointdata.find(
         name="time",
         attrs={
@@ -191,7 +202,9 @@ def find_in_document(location_object, target_local_time, document):
         },
     )
     if not forecast:
-        raise BadResponse({"service": SERVICE_NAME, "message": "time datatype=forecast"})
+        raise BadResponse(
+            {"service": SERVICE_NAME, "message": "time datatype=forecast"}
+        )
     try:
         temperature = forecast.find("location").find(
             name="temperature", attrs={"id": "TTT", "unit": "celsius"}

@@ -13,6 +13,7 @@ from ..utils.time import (
     decaminutes_since_utc_datetime,
     utc_string_to_utc_datetime,
 )
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse, UnexpectedFormat, OutOfRange
 
 DECIMAL_PLACES = int(os.getenv("DECIMAL_PLACES", 2))
@@ -21,7 +22,9 @@ SERVICE_NAME = "Bom.gov.au"
 
 def fetch(location_object):
     url = location_object["bom.gov.au"]
-    r = requests.get(url)
+    browser_profile = Browser()
+    headers = browser_profile.headers
+    r = requests.get(url, headers=headers)
     if r.ok:
         return r.text
     else:
@@ -84,7 +87,10 @@ def soup_to_forecast_object(soup, timezone):
     str_padding = "This page was created at "  # String to be removed
     if not str_padding in timestamp_text:
         raise UnexpectedFormat(
-            {"service": SERVICE_NAME, "message": "Did not find 'This page was created at'"}
+            {
+                "service": SERVICE_NAME,
+                "message": "Did not find 'This page was created at'",
+            }
         )
     timestamp_text = timestamp_text.replace(str_padding, "")
     issue_time = format_standard(

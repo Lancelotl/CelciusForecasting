@@ -29,7 +29,11 @@ def fetch(location_object):
     headers = browser_profile.headers
     r = requests.get(
         ENDPOINT.format(
-            latitude=latitude, longitude=longitude, client_id=api_id, client_secret=api_secret, headers=headers
+            latitude=latitude,
+            longitude=longitude,
+            client_id=api_id,
+            client_secret=api_secret,
+            headers=headers,
         )
     )
     if r.ok:

@@ -10,6 +10,7 @@ from ..utils.time import (
     utc_string_to_utc_datetime,
 )
 from ..utils.api_keys import find_key
+from ..utils.browser_profiles import Browser
 from ..exceptions import HttpError, BadResponse, OutOfRange
 
 ENDPOINT = "https://api-metoffice.apiconnect.ibmcloud.com/metoffice/production/v0/forecasts/point/hourly?excludeParameterMetadata=123&includeLocationName=true&latitude={latitude}&longitude={longitude}"
@@ -25,12 +26,12 @@ def fetch(location_object):
         find_key("MET_CLIENT_ID"),
     )
     latitude, longitude = location_object["coordinates"]
+    browser_profile = Browser()
+    headers = browser_profile.headers
+    headers["X-IBM-Client-Secret"] = api_client_secret
+    headers["X-IBM-Client-Id"] = api_client_id
     r = requests.get(
-        ENDPOINT.format(latitude=latitude, longitude=longitude),
-        headers={
-            "X-IBM-Client-Secret": api_client_secret,
-            "X-IBM-Client-Id": api_client_id,
-        },
+        ENDPOINT.format(latitude=latitude, longitude=longitude), headers=headers,
     )
     if r.ok:
         return r.json()
@@ -103,7 +104,9 @@ def retrieve(location_object, target_local_time):
             try:
                 temperature = forecast["screenTemperature"]
             except KeyError:
-                raise BadResponse({"service": SERVICE_NAME, "message": "screenTemperature"})
+                raise BadResponse(
+                    {"service": SERVICE_NAME, "message": "screenTemperature"}
+                )
             temperature = round(Decimal(str(temperature)), DECIMAL_PLACES)
 
             issue_time_formatted = format_standard(
@@ -200,7 +203,9 @@ def find_in_document(location_object, target_local_time, document):
             try:
                 temperature = forecast["screenTemperature"]
             except KeyError:
-                raise BadResponse({"service": SERVICE_NAME, "message": "screenTemperature"})
+                raise BadResponse(
+                    {"service": SERVICE_NAME, "message": "screenTemperature"}
+                )
             temperature = round(Decimal(str(temperature)), DECIMAL_PLACES)
 
             issue_time_formatted = format_standard(
