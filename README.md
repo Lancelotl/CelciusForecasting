@@ -1,6 +1,12 @@
 # CelciusForecasting (pyweather)
  Retrieving multi-source temperature forecasts by coordinates.
 
+## Install
+```
+    cd pyweather
+    python3 setup.py build
+    python3 setup.py install
+```
 
 ## Example
 ```python
@@ -23,18 +29,18 @@ for city in CITIES:
 ```
 
 ## Weather forecasting services
-Currently supports 7 weather forecasting services!
-- Australian Bureau of Meteorology (BOM)
-- The MET Office (MET)
-- Norwegian Meteorological Institute (YRNO)
-- Accuweather (ACCUWEATHER)
-- Weather.com or "The Weather Channel" (WEATHERCOM)
-- Global Weather Corporation (GWC)
-- Aeris Weather (AERIS)
+ Currently supports 7 weather forecasting services(!)
+ - Australian Bureau of Meteorology **(BOM)**
+ - The MET Office **(MET)**
+ - Norwegian Meteorological Institute **(YRNO)**
+ - Accuweather **(ACCUWEATHER)**
+ - Weather.com or "The Weather Channel" **(WEATHERCOM)**
+ - Global Weather Corporation **(GWC)**
+ - Aeris Weather **(AERIS)**
 
 
 ## API Keys
- To use the Accuweather and MET APIs, please create a variables.env file in your current directory with your own API keys for the following services:
+ To use some of these services you must supply their respective API credentials. Please create a variables.env file in your current directory with the following values filled:
 
 ```
 ACCUWEATHER_API_KEY = ""
