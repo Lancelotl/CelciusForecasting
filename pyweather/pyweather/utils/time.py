@@ -120,9 +120,19 @@ def parse_weathercom(raw_string):
     Input:
         raw_string
             '2020-05-07T03:00:00+1000'
-        hour_string
-            '1:00 AM' format "H:m A"
-        target_timezone
+
+    Output:
+        Pendulum datetime object (UTC)
+    """
+    return pendulum.parse(raw_string).in_tz("UTC")
+
+
+def parse_aeris(raw_string):
+    """For the Aeris API
+
+    Input:
+        raw_string
+            2020-05-26T03:00:00+10:00
 
     Output:
         Pendulum datetime object (UTC)
@@ -213,6 +223,16 @@ def local_string_to_weathercom_string(time_local, timezone):
     """
     dt_local = pendulum.parse(time_local, tz=timezone)
     return dt_local.format("YYYY-MM-DDTHH:mm:ssZZ")
+
+
+def local_string_to_aeris_string(time_local, timezone):
+    """Takes a local date as a string of the format:
+        '2020-04-11T09:00'
+    Returns the equivalent string in UTC
+        '2020-05-26T03:00:00+10:00'
+    """
+    dt_local = pendulum.parse(time_local, tz=timezone)
+    return dt_local.format("YYYY-MM-DDTHH:mm:ssZ")
 
 
 def datetime_to_simple_string(date_dt):

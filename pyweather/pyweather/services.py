@@ -6,3 +6,4 @@ ACCUWEATHER = api.accuweather
 YRNO = api.yrno
 WEATHERCOM = api.weathercom
 GWC = api.gwc
+AERIS = api.aeris

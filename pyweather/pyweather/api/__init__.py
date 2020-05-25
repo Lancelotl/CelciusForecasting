@@ -4,5 +4,6 @@ from . import (
     met,
     yrno,
     weathercom,
-    gwc
+    gwc,
+    aeris
 )
