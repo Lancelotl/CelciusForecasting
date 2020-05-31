@@ -399,6 +399,6 @@ def parse_gwc(raw_string, timezone):
         Pendulum datetime object (UTC)
     """
     stripped = normalize_gwc(raw_string)
-    parsed = pendulum.from_format(stripped, "ddd MMMM DD HH:mm:ss YYYY").in_tz(timezone)
+    parsed = pendulum.from_format(stripped, "ddd MMM DD HH:mm:ss YYYY").in_tz(timezone)
 
     return parsed
