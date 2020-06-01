@@ -189,6 +189,10 @@ class HourlyForecast:
                     forecast_object["forecasts"][hour][service.__name__] = response
                 except OutOfRange as e:
                     continue
+                except BadResponse as e:
+                    print("BadResponse:")
+                    print(e)
+                    continue
 
         return forecast_object
 
