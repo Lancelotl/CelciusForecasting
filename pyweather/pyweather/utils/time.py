@@ -365,7 +365,7 @@ def local_string_to_gwc_string_search(time_local, timezone):
     """
     dt_local = pendulum.parse(time_local, tz=timezone)
 
-    return dt_local.format("ddd MMMM DD HH:mm:ss YYYY")
+    return dt_local.format("ddd MMM DD HH:mm:ss YYYY")
 
 
 def normalize_gwc(raw_string):
