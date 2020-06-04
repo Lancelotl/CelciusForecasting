@@ -1,5 +1,5 @@
 from .services import BOM, MET, ACCUWEATHER, YRNO, WEATHERCOM, GWC
-from .exceptions import OutOfRange, HttpError
+from .exceptions import OutOfRange, HttpError, BadResponse
 from .utils.time import local_string_to_range_of_local_strings
 from decimal import Decimal
 
